@@ -162,7 +162,7 @@ h1, h2, h3, p { margin: 0; }
 .plain a { text-underline-offset: 4px; }
 .plain .state { color: var(--muted); font-size: 14px; margin-left: 8px; }
 #updated-line { margin-top: 20px; }
-.footer { padding: 72px 0 56px; color: var(--muted); font-size: 14px; max-width: 80ch; }
+.footer { padding: 72px 0 56px; color: var(--muted); font-size: 14px; text-align: center; }
 
 /* Responsive */
 @media (max-width: 960px) {
