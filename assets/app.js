@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var TAG_LABELS = { launch: "Launches", recall: "Recalls", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
+  var TAG_LABELS = { launch: "Launches", recall: "Recall news", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
   var PAGE = 12;
 
   function el(tag, attrs, kids) {
@@ -110,7 +110,7 @@
   }
 
   /* ---------- Recalls ---------- */
-  var recalls = [], recallShown = 8;
+  var recalls = [], recallShown = 5;
 
   function recallTitle(r) {
     var models = r.models.join(", ") + (r.more_models ? " and " + r.more_models + " more" : "");
@@ -202,7 +202,7 @@
 
   /* ---------- Start ---------- */
   buildFilters();
-  document.getElementById("recall-more").addEventListener("click", function () { recallShown += 8; renderRecalls(); });
+  document.getElementById("recall-more").addEventListener("click", function () { recallShown += 5; renderRecalls(); });
 
   Promise.all([load("news.json"), load("recalls.json")]).then(function (res) {
     var n = res[0], r = res[1];
