@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auto Pulse | The auto industry on one page</title>
+  <meta name="description" content="Daily auto industry headlines, vehicle recalls, stock moves and the rental market, each linked to its original source.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#headlines">Skip to headlines</a>
+
+  <div class="topbar">
+    <span class="pill pill-dark">Updated daily</span>
+    <span class="topbar-text">Auto industry news, recalls and market moves on one page.</span>
+    <a class="topbar-link" href="#headlines">See headlines</a>
+  </div>
+
+  <header class="nav wrap">
+    <a class="brand" href="#top" aria-label="Auto Pulse home">Auto<span>Pulse</span></a>
+    <nav aria-label="Sections">
+      <a href="#headlines">Headlines</a>
+      <a href="#recalls">Recalls</a>
+      <a href="#markets">Markets</a>
+      <a href="#rental">Rental and leasing</a>
+      <a class="btn btn-outline btn-small" href="#about">Sources</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="wrap">
+      <div class="hero">
+        <div class="hero-copy">
+          <h1><span>Auto industry.</span><span class="soft">One page.</span></h1>
+          <p>Headlines, recalls, stock moves and the rental market, refreshed every day. Every item links to where it was originally published.</p>
+          <div class="actions">
+            <a class="btn btn-ghost" href="#about">How it works</a>
+            <a class="btn btn-light" href="#headlines">Latest headlines</a>
+          </div>
+        </div>
+        <aside class="hero-latest" aria-label="Latest headlines">
+          <h2>Latest</h2>
+          <ul id="hero-list"><li class="empty">Loading headlines</li></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap section" id="headlines" aria-labelledby="h-headlines">
+      <h2 id="h-headlines">Headlines</h2>
+      <p class="lede">From trade news sources. Select a headline to read it where it was published.</p>
+      <div class="chips" id="filters" role="group" aria-label="Filter headlines by topic"></div>
+      <p class="count" id="news-count" aria-live="polite"></p>
+      <div class="grid" id="news-grid"></div>
+      <button class="btn btn-dark more" id="news-more" hidden>Show more headlines</button>
+    </section>
+
+    <section class="wrap section" id="recalls" aria-labelledby="h-recalls">
+      <h2 id="h-recalls">Recalls</h2>
+      <p class="lede">Vehicle safety recalls reported to NHTSA, the US federal safety regulator.</p>
+      <div class="recall-layout">
+        <div>
+          <div class="stack" id="recall-list"></div>
+          <button class="btn btn-dark more" id="recall-more" hidden>Show more recalls</button>
+        </div>
+        <aside class="card chart" aria-labelledby="h-bymake">
+          <h3 id="h-bymake">Recalls by make</h3>
+          <p class="small" id="bymake-sub"></p>
+          <ol class="bars" id="bymake"></ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap" id="markets" aria-labelledby="h-markets">
+      <div class="dark-panel">
+        <h2 id="h-markets">Markets</h2>
+        <p class="lede">End-of-day prices for auto resale, rental and automaker stocks. Data is delayed and is not investment advice.</p>
+        <div id="stocks"></div>
+        <p class="small" id="stocks-note"></p>
+      </div>
+    </section>
+
+    <section class="wrap section" id="rental" aria-labelledby="h-rental">
+      <h2 id="h-rental">Rental and leasing</h2>
+      <p class="lede">News on rental, leasing, car sharing and subscriptions, plus the two largest listed rental companies in the US.</p>
+      <div class="rental-tickers" id="rental-tickers"></div>
+      <div class="grid" id="rental-grid"></div>
+    </section>
+
+    <section class="wrap section about" id="about" aria-labelledby="h-about">
+      <h2 id="h-about">How this works</h2>
+      <div class="about-grid">
+        <div>
+          <p>A scheduled job runs once a day. It collects headlines from trade news feeds, the latest recall records from NHTSA and end-of-day stock prices, then updates this page. Nothing is written by hand and nothing is copied from articles. You see a headline, its source and a link.</p>
+          <p>Lawsuit and deal headlines report what outlets published. They are claims and reports, not findings.</p>
+          <p class="small" id="updated-line"></p>
+        </div>
+        <div>
+          <h3>Sources</h3>
+          <ul class="plain" id="source-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Auto Pulse is an independent information page. It is not affiliated with any company named here. Stock data is delayed and is not investment advice.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
