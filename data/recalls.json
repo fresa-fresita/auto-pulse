@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-25T07:12:42Z",
+ "updated": "2026-11-25T21:00:31Z",
  "window_days": 90,
- "campaigns_in_window": 196,
+ "campaigns_in_window": 200,
  "by_make": [
   {
    "make": "Ford",
@@ -24,6 +24,10 @@
    "count": 6
   },
   {
+   "make": "BMW",
+   "count": 5
+  },
+  {
    "make": "Freightliner",
    "count": 5
   },
@@ -40,16 +44,12 @@
    "count": 5
   },
   {
-   "make": "BMW",
-   "count": 4
+   "make": "Mack",
+   "count": 5
   },
   {
-   "make": "Chevrolet",
-   "count": 4
-  },
-  {
-   "make": "Grand Design",
-   "count": 4
+   "make": "Volvo",
+   "count": 5
   }
  ],
  "recent": [
@@ -71,10 +71,95 @@
     2012,
     2013
    ],
-   "component": "Air Bags:Frontal:Driver Side:Inflator Module",
+   "component": "Air Bags:Frontal:Passenger Side:Inflator Module",
    "summary": "Honda (American Honda Motor Co.) is recalling certain 2013 Acura RDX, ILX, 2012-2013 Honda CR-V, Civic, and 2013 Accord vehicles equipped with certain Takata front and passenger air bag inflators. The inflators may rupture due to…",
    "units": 810592,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V765000"
+  },
+  {
+   "id": "26V761000",
+   "date": "2026-11-19",
+   "makes": [
+    "Rivian"
+   ],
+   "models": [
+    "R1S",
+    "R1T",
+    "R2"
+   ],
+   "more_models": 0,
+   "years": [
+    2022,
+    2027
+   ],
+   "component": "Equipment:Other:Labels",
+   "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2022-2027 R1S, R1T, and 2027 R2 vehicles. The tire placard and/or certification label may not correctly list the wheel, tire, and spare tire configuration of the vehicle. As su…",
+   "units": 1619,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V761000"
+  },
+  {
+   "id": "26V759000",
+   "date": "2026-11-19",
+   "makes": [
+    "Mack"
+   ],
+   "models": [
+    "Anthem An (4)",
+    "Pinnacle (Pi/Pn)",
+    "Pioneer Pr (4)"
+   ],
+   "more_models": 0,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Steering:Linkages:Knuckle:Spindle:Arm",
+   "summary": "Mack Trucks, Inc. (Mack) is recalling certain 2027 Anthem AN (4), Pioneer PR (4), and Pinnacle (PI/PN) vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle…",
+   "units": 141,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V759000"
+  },
+  {
+   "id": "26V758000",
+   "date": "2026-11-19",
+   "makes": [
+    "Volvo"
+   ],
+   "models": [
+    "Vn",
+    "Vnl (4)",
+    "Vnr (4)"
+   ],
+   "more_models": 0,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Steering:Linkages:Knuckle:Spindle:Arm",
+   "summary": "Volvo Trucks North America (Volvo Trucks) is recalling certain 2027 VNL (4), VNR (4), and VN vehicles. Due to a manufacturing error, the front steering knuckles may crack and break, which can result in a loss of vehicle steering…",
+   "units": 755,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V758000"
+  },
+  {
+   "id": "26V757000",
+   "date": "2026-11-19",
+   "makes": [
+    "BMW"
+   ],
+   "models": [
+    "430I Convertible",
+    "430I Xdrive Convertible",
+    "M4 Competition Xdrive Convertible",
+    "M440I Convertible"
+   ],
+   "more_models": 1,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Visibility:Windshield",
+   "summary": "BMW of North America, LLC (BMW) is recalling certain 2027 M4 Convertible, and 430i, 430i xDrive, M440i, M440i xDrive convertible vehicles. The rearview mirror may be insufficiently attached. During a crash, the front passenger ai…",
+   "units": 83,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V757000"
   },
   {
    "id": "26V756000",
@@ -90,7 +175,7 @@
     2022,
     2024
    ],
-   "component": "Exterior Lighting:Brake Lights",
+   "component": "Service Brakes, Hydraulic:Antilock/Traction Control/Electronic Limited Slip:Control Unit/…",
    "summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2024 Ram 1500 Classic pickup trucks. The anti-lock brake (ABS) module software may misread inputs from the brake pedal and pedal sensor, which can result in improper brake light il…",
    "units": 82843,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V756000"
@@ -294,7 +379,7 @@
     2027,
     2027
    ],
-   "component": "Forward Collision Avoidance: Automatic Emergency Braking",
+   "component": "Forward Collision Avoidance: Sensing System: Radar",
    "summary": "PACCAR Incorporated (PACCAR) is recalling certain 2027 Kenworth T680, T880, W990, Peterbilt 567, 579, and 589 vehicles. The forward-looking radar may falsely detect stationary or slow-moving objects in the left lane as relevant v…",
    "units": 6185,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V744000"
@@ -524,7 +609,7 @@
     2012,
     2018
    ],
-   "component": "Engine And Engine Cooling:Cooling System:Pump",
+   "component": "Electrical System:Wiring:Connectors/Plugs/Receptacles",
    "summary": "BMW of North America, LLC (BMW) is recalling certain 2012-2016 3 Series, 5 Series, Z4, 2012-2015 X1, 2013-2017 X3, 2015-2016 4 Series Gran Coupe, 2 Series Convertible, 2014-2016 328xi Gran Turismo, 2 Series Coupe, 4 Series Conver…",
    "units": 720796,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V733000"
@@ -591,85 +676,6 @@
    "summary": "Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2026 FLHXLSE, FLTRXSTSE, FLHXSTSE, FLHXSE, FLHXL, FLTRXP, FLTRX, FLTRXL, and FLHX motorcycles. The engine control module (ECM) may communicate the incorrect gea…",
    "units": 21643,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V730000"
-  },
-  {
-   "id": "26V729000",
-   "date": "2026-11-03",
-   "makes": [
-    "Spencer"
-   ],
-   "models": [
-    "Initial Attack",
-    "Pumper",
-    "Rescue"
-   ],
-   "more_models": 0,
-   "years": [
-    2024,
-    2026
-   ],
-   "component": "Equipment:Emergency:Fire Supression",
-   "summary": "Spencer Manufacturing, Inc. (Spencer) is recalling certain 2026 Rescue, 2025 Initial Attack, and 2024-2025 Pumper emergency vehicles. The display may stop responding to touch commands or fail to power on, preventing the activatio…",
-   "units": 5,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V729000"
-  },
-  {
-   "id": "26V728000",
-   "date": "2026-11-02",
-   "makes": [
-    "Hyundai"
-   ],
-   "models": [
-    "Kona Electric",
-    "Veloster N"
-   ],
-   "more_models": 0,
-   "years": [
-    2019,
-    2023
-   ],
-   "component": "Air Bags: Air Bag/Restraint Control Module:Software",
-   "summary": "Hyundai Motor America (Hyundai) is recalling certain 2019-2022 Veloster N, 2019-2023 Kona Electric vehicles. A software error in the air bag control unit (ACU) may improperly deactivate the air bag system and seat belt pretension…",
-   "units": 37901,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V728000"
-  },
-  {
-   "id": "26V727000",
-   "date": "2026-11-02",
-   "makes": [
-    "Ford"
-   ],
-   "models": [
-    "Transit"
-   ],
-   "more_models": 0,
-   "years": [
-    2026,
-    2026
-   ],
-   "component": "Electrical System:Body Control Module:Software",
-   "summary": "Ford Motor Company (Ford) is recalling certain 2026 Transit vehicles. A software error in the body control module C (BCMC) may cause the module to freeze, shutting off certain features such as interior lighting and trailer lights…",
-   "units": 60956,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V727000"
-  },
-  {
-   "id": "26V726000",
-   "date": "2026-11-02",
-   "makes": [
-    "Ford"
-   ],
-   "models": [
-    "Explorer"
-   ],
-   "more_models": 0,
-   "years": [
-    2026,
-    2027
-   ],
-   "component": "Interior Lighting",
-   "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Explorer Police Interceptor vehicles. A phantom \"Global On\" command in the overhead console may illuminate the map lights and prevent them from being turned off. As such, t…",
-   "units": 33578,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V726000"
   }
  ]
 }
