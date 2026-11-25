@@ -6,7 +6,7 @@ The site shows headline, source name, date and link only. It does not copy artic
 |---|---|---|
 | Headlines | RSS feeds from CBT News, Automotive World, Auto Rental News and Electrek | Feed addresses are best guesses and were not checked before launch. A feed that fails is skipped and shown as unavailable under Sources on the page. Check each outlet's terms for headline display |
 | Recalls | NHTSA recall flat file, `static.nhtsa.gov/odi/ffdd/rcl/FLAT_RCL_POST_2010.zip`. NHTSA data is public domain | The column positions in `scripts/fetch_recalls.py` come from NHTSA's data dictionary and were not tested against the live file. The script checks the layout on every run and keeps the previous data if it does not match |
-| Stocks | Stooq end-of-day CSV | Stooq is free for non-commercial use and its wording on redistribution is unclear. Prices are credited to Stooq on the page. If a ticker fails, the page shows "Price unavailable" |
+| Markets | No price data. Each ticker links to its Yahoo Finance quote page | Prices were dropped because no free source clearly allowed public display |
 | Rental and leasing | The same news feeds, filtered by keyword, plus Hertz and Avis Budget prices | Keyword filtering is rough and can include off-topic items |
 
 ## Known limits

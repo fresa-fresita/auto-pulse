@@ -153,47 +153,37 @@
     });
   }
 
-  /* ---------- Stocks ---------- */
+  /* ---------- Stocks: ticker links only, no prices ---------- */
+  var TICKER_GROUPS = [
+    { id: "resale", title: "Resale and marketplaces", tickers: [["CVNA", "Carvana"], ["KMX", "CarMax"], ["CPRT", "Copart"], ["CARG", "CarGurus"], ["CARS", "Cars.com"]] },
+    { id: "rental", title: "Rental", tickers: [["HTZ", "Hertz"], ["CAR", "Avis Budget"]] },
+    { id: "makers", title: "Automakers", tickers: [["TSLA", "Tesla"], ["GM", "General Motors"], ["F", "Ford"], ["TM", "Toyota"], ["STLA", "Stellantis"], ["HMC", "Honda"]] }
+  ];
+
   function tickerTile(t) {
-    var chg;
-    if (t.close == null) chg = el("span", { "class": "na chg", text: "Price unavailable" });
-    else if (t.change_pct == null) chg = el("span", { "class": "chg flat", text: "" });
-    else {
-      var up = t.change_pct > 0, flat = t.change_pct === 0;
-      var sign = up ? "▲ +" : flat ? "" : "▼ ";
-      chg = el("span", { "class": "chg " + (flat ? "flat" : up ? "up" : "down"), text: sign + t.change_pct.toFixed(2) + "%" });
-    }
-    return el("a", { "class": "ticker", href: safeHref(t.url), target: "_blank", rel: "noopener noreferrer", "aria-label": t.name + " (" + t.symbol + ") quote page" }, [
-      el("span", { "class": "sym", text: t.symbol }),
-      el("span", { "class": "nm", text: t.name }),
-      el("span", { "class": "px", text: t.close == null ? "" : "$" + t.close.toFixed(2) }),
-      chg,
-      t.as_of ? el("span", { "class": "asof", text: "Close " + fmtDate(t.as_of) + (t.stale ? ", not refreshed" : "") }) : null
+    return el("a", { "class": "ticker", href: "https://finance.yahoo.com/quote/" + t[0], target: "_blank", rel: "noopener noreferrer", "aria-label": t[1] + " (" + t[0] + ") quote page" }, [
+      el("span", { "class": "sym", text: t[0] }),
+      el("span", { "class": "nm", text: t[1] }),
+      el("span", { "class": "asof", text: "View quote" })
     ]);
   }
 
-  function renderStocks(data) {
+  function renderStocks() {
     var box = document.getElementById("stocks");
-    var note = document.getElementById("stocks-note");
     box.textContent = "";
-    if (!data || !data.groups || !data.groups.length) {
-      box.appendChild(el("p", { "class": "empty", style: "color:#a9acbd;margin-top:32px", text: "No market data yet. The daily update fills this section in." }));
-      return;
-    }
-    data.groups.forEach(function (g) {
+    TICKER_GROUPS.forEach(function (g) {
       box.appendChild(el("div", { "class": "stock-group" }, [
         el("h3", { text: g.title }),
         el("div", { "class": "tickers" }, g.tickers.map(tickerTile))
       ]));
     });
-    note.textContent = "Prices from Stooq, end of day. Select a ticker to open its quote page on Yahoo Finance.";
     var rt = document.getElementById("rental-tickers");
     rt.textContent = "";
-    data.groups.filter(function (g) { return g.id === "rental"; }).forEach(function (g) { g.tickers.forEach(function (t) { rt.appendChild(tickerTile(t)); }); });
+    TICKER_GROUPS.filter(function (g) { return g.id === "rental"; }).forEach(function (g) { g.tickers.forEach(function (t) { rt.appendChild(tickerTile(t)); }); });
   }
 
   /* ---------- About ---------- */
-  function renderAbout(newsData, recallData, stockData) {
+  function renderAbout(newsData, recallData) {
     var list = document.getElementById("source-list");
     list.textContent = "";
     var rows = [];
@@ -203,10 +193,9 @@
       });
     }
     rows.push(el("li", {}, [extLink("https://www.nhtsa.gov/recalls", "NHTSA recalls")]));
-    rows.push(el("li", {}, [extLink("https://stooq.com", "Stooq (end-of-day prices)")]));
     rows.push(el("li", {}, [extLink("https://finance.yahoo.com", "Yahoo Finance (quote pages)")]));
     rows.forEach(function (r) { list.appendChild(r); });
-    var stamps = [newsData, recallData, stockData].filter(Boolean).map(function (d) { return d.updated; }).filter(Boolean).sort();
+    var stamps = [newsData, recallData].filter(Boolean).map(function (d) { return d.updated; }).filter(Boolean).sort();
     var line = document.getElementById("updated-line");
     line.textContent = stamps.length ? "Last data update: " + fmtDateTime(stamps[stamps.length - 1]) + " in your local time." : "No data update has run yet.";
   }
@@ -215,13 +204,13 @@
   buildFilters();
   document.getElementById("recall-more").addEventListener("click", function () { recallShown += 8; renderRecalls(); });
 
-  Promise.all([load("news.json"), load("recalls.json"), load("stocks.json")]).then(function (res) {
-    var n = res[0], r = res[1], s = res[2];
+  Promise.all([load("news.json"), load("recalls.json")]).then(function (res) {
+    var n = res[0], r = res[1];
     news = (n && n.items) || [];
     recalls = (r && r.recent) || [];
     renderHero(); renderNews(); renderRental();
     renderRecalls(); renderBars(r);
-    renderStocks(s);
-    renderAbout(n, r, s);
+    renderStocks();
+    renderAbout(n, r);
   });
 })();

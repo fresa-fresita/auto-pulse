@@ -4,9 +4,8 @@ import traceback
 
 import fetch_news
 import fetch_recalls
-import fetch_stocks
 
-JOBS = [("news", fetch_news.main), ("recalls", fetch_recalls.main), ("stocks", fetch_stocks.main)]
+JOBS = [("news", fetch_news.main), ("recalls", fetch_recalls.main)]
 
 
 def main():

@@ -7,7 +7,6 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(
 
 import fetch_news  # noqa: E402
 import fetch_recalls  # noqa: E402
-import fetch_stocks  # noqa: E402
 
 RSS = b"""<?xml version="1.0"?>
 <rss version="2.0"><channel><title>Test</title>
@@ -87,17 +86,6 @@ class RecallTests(unittest.TestCase):
     def test_bad_layout_rejected(self):
         with self.assertRaises(ValueError):
             list(fetch_recalls.parse_rows("\n".join(["a\t" * 30] * 5)))
-
-
-class StockTests(unittest.TestCase):
-    def test_quote_parsing(self):
-        csv_text = "Date,Open,High,Low,Close,Volume\n2026-11-20,10,11,9,100.00,5\n2026-11-21,10,11,9,102.50,6\n"
-        date, close, chg = fetch_stocks.parse_quote(csv_text)
-        self.assertEqual((date, close, chg), ("2026-11-21", 102.5, 2.5))
-
-    def test_bad_response_rejected(self):
-        with self.assertRaises(ValueError):
-            fetch_stocks.parse_quote("Exceeded the daily hits limit")
 
 
 if __name__ == "__main__":
