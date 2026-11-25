@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  var TAG_LABELS = { launch: "Launches", recall: "Recall news", flexcar: "Flexcar", avis: "Avis", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
-  var PAGE = 12;
+  var TAG_LABELS = { launch: "Launches", recall: "Recall news", flexcar: "Flexcar", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
+  var PAGE = 9;
 
   function el(tag, attrs, kids) {
     var node = document.createElement(tag);

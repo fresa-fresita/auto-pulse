@@ -64,9 +64,6 @@ class NewsTests(unittest.TestCase):
         self.assertEqual(items[0]["title"], "Flexcar adds new cities")
         self.assertIn("flexcar", items[0]["tags"])
 
-    def test_avis_tag(self):
-        self.assertIn("avis", fetch_news.tag_title("Avis Budget names new CFO"))
-
     def test_entities_rejected(self):
         with self.assertRaises(ValueError):
             fetch_news.parse_feed(b'<?xml version="1.0"?><!DOCTYPE x [<!ENTITY a "b">]><rss/>', "Bad")

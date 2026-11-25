@@ -4,8 +4,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
-from urllib.parse import quote_plus
-
 from common import clean_text, fetch, now_iso, read_json, safe_url, write_json
 
 # Feed URLs are best guesses and are checked on every run. A feed that fails is skipped
@@ -15,9 +13,6 @@ FEEDS = [
     {"name": "Automotive World", "url": "https://www.automotiveworld.com/feed/"},
     {"name": "Auto Rental News", "url": "https://www.autorentalnews.com/rss"},
     {"name": "Electrek", "url": "https://electrek.co/feed/"},
-    # Google News search results. Each item carries its publisher, which is shown as the source.
-    {"name": "Google News (Avis)", "url": "https://news.google.com/rss/search?q=" + quote_plus('"Avis Budget" OR "Avis Car Rental"') + "&hl=en-US&gl=US&ceid=US:en",
-     "item_source": True, "must_match": r"\bavis\b"},
 ]
 
 KEEP_DAYS = 14
@@ -29,7 +24,6 @@ TAG_RULES = {
     "deal": r"\bacquir|acquisition|\bmerger|\bmerges?\b|\bbuyout|takeover|\bstake\b|\bbuys?\b|\bsells? (its|a|the)\b|dealership group",
     "launch": r"\bunveil|\bdebut|\blaunch(es|ed)?\b|\breveals?\b|all-new|\bintroduces?\b|\bnew model\b|\bnext-gen",
     "flexcar": r"\bflexcar\b",
-    "avis": r"\bavis\b",
     "rental": r"\brental|\bleas(e|es|ing)\b|\bhertz\b|\bavis\b|\bturo\b|\bzipcar\b|\bsixt\b|\bgetaround\b|\benterprise mobility|car[- ]sharing|\bsubscription\b",
     "ev": r"\bEVs?\b|electric vehicle|\bbattery\b|\bcharging\b|\bPHEV\b|\bhybrid",
 }
