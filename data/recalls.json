@@ -1,5 +1,675 @@
 {
- "updated": null,
- "by_make": [],
- "recent": []
+ "updated": "2026-11-25T07:12:42Z",
+ "window_days": 90,
+ "campaigns_in_window": 196,
+ "by_make": [
+  {
+   "make": "Ford",
+   "count": 17
+  },
+  {
+   "make": "Forest River",
+   "count": 11
+  },
+  {
+   "make": "Toyota",
+   "count": 8
+  },
+  {
+   "make": "Altec",
+   "count": 7
+  },
+  {
+   "make": "RAM",
+   "count": 6
+  },
+  {
+   "make": "Freightliner",
+   "count": 5
+  },
+  {
+   "make": "Honda",
+   "count": 5
+  },
+  {
+   "make": "Hyundai",
+   "count": 5
+  },
+  {
+   "make": "Land Rover",
+   "count": 5
+  },
+  {
+   "make": "BMW",
+   "count": 4
+  },
+  {
+   "make": "Chevrolet",
+   "count": 4
+  },
+  {
+   "make": "Grand Design",
+   "count": 4
+  }
+ ],
+ "recent": [
+  {
+   "id": "26V765000",
+   "date": "2026-11-19",
+   "makes": [
+    "Acura",
+    "Honda"
+   ],
+   "models": [
+    "Accord",
+    "Civic",
+    "Cr-V",
+    "Ilx"
+   ],
+   "more_models": 1,
+   "years": [
+    2012,
+    2013
+   ],
+   "component": "Air Bags:Frontal:Driver Side:Inflator Module",
+   "summary": "Honda (American Honda Motor Co.) is recalling certain 2013 Acura RDX, ILX, 2012-2013 Honda CR-V, Civic, and 2013 Accord vehicles equipped with certain Takata front and passenger air bag inflators. The inflators may rupture due to…",
+   "units": 810592,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V765000"
+  },
+  {
+   "id": "26V756000",
+   "date": "2026-11-19",
+   "makes": [
+    "RAM"
+   ],
+   "models": [
+    "1500"
+   ],
+   "more_models": 0,
+   "years": [
+    2022,
+    2024
+   ],
+   "component": "Exterior Lighting:Brake Lights",
+   "summary": "Chrysler (FCA US, LLC) is recalling certain 2022-2024 Ram 1500 Classic pickup trucks. The anti-lock brake (ABS) module software may misread inputs from the brake pedal and pedal sensor, which can result in improper brake light il…",
+   "units": 82843,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V756000"
+  },
+  {
+   "id": "26V755000",
+   "date": "2026-11-18",
+   "makes": [
+    "Gillig"
+   ],
+   "models": [
+    "Low Floor"
+   ],
+   "more_models": 0,
+   "years": [
+    2023,
+    2026
+   ],
+   "component": "Electrical System:Propulsion System: Cables:Fastener/Connector",
+   "summary": "Gillig, LLC (Gillig) is recalling certain 2023-2026 Low Floor electric transit buses. The EV resolver cable may lose electrical connectivity, unexpectedly switching from drive to neutral with no warning.",
+   "units": 1323,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V755000"
+  },
+  {
+   "id": "26V753000",
+   "date": "2026-11-13",
+   "makes": [
+    "Altec"
+   ],
+   "models": [
+    "At Series"
+   ],
+   "more_models": 0,
+   "years": [
+    2024,
+    2026
+   ],
+   "component": "Suspension:Rear:Springs:Leaf Spring Assembly:U-Bolt, Leaf Spring To Axle",
+   "summary": "Altec Industries, Inc. (Altec) is recalling certain 2024-2026 AT Series vehicles. The U-bolt securing the rear suspension may not have been properly tightened after rear suspension modification work was completed.",
+   "units": 161,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V753000"
+  },
+  {
+   "id": "26V752000",
+   "date": "2026-11-13",
+   "makes": [
+    "Altec"
+   ],
+   "models": [
+    "Am Series Aerial Device",
+    "An Series Aerial Device"
+   ],
+   "more_models": 0,
+   "years": [
+    2025,
+    2026
+   ],
+   "component": "Equipment:Mechanical:Containment:Valve",
+   "summary": "Altec Industries, Inc. (Altec) is recalling certain 2025-2026 AM Series Aerial Device, and AN Series Aerial Device vehicles. The activation handle for the platform stow valve at the lower controls may have been assembled without…",
+   "units": 1100,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V752000"
+  },
+  {
+   "id": "26V750000",
+   "date": "2026-11-12",
+   "makes": [
+    "Toyota"
+   ],
+   "models": [
+    "Tundra"
+   ],
+   "more_models": 0,
+   "years": [
+    2022,
+    2026
+   ],
+   "component": "Engine And Engine Cooling:Engine:Hard Parts Internal/Mechanical",
+   "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2022-2023 and 2025-2026 Tundra vehicles. One of the engine camshafts may have been manufactured incorrectly, allowing cracks to develop that can cause the cam…",
+   "units": 62490,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V750000"
+  },
+  {
+   "id": "26V749000",
+   "date": "2026-11-12",
+   "makes": [
+    "Honda"
+   ],
+   "models": [
+    "S2000"
+   ],
+   "more_models": 0,
+   "years": [
+    2004,
+    2005
+   ],
+   "component": "Fuel System, Gasoline:Delivery:Fuel Pump:Mounting Plate/Flange",
+   "summary": "Honda (American Honda Motor Co.) is recalling certain 2004-2005 S2000 vehicles. The fuel flange joint assembly may have been improperly manufactured, allowing the fuel line connection to loosen and separate and possibly causing a…",
+   "units": 16387,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V749000"
+  },
+  {
+   "id": "26V748000",
+   "date": "2026-11-12",
+   "makes": [
+    "Lexus",
+    "Toyota"
+   ],
+   "models": [
+    "4Runner",
+    "Corolla",
+    "Gx",
+    "Is"
+   ],
+   "more_models": 3,
+   "years": [
+    2002,
+    2017
+   ],
+   "component": "Air Bags:Frontal:Passenger Side:Inflator Module",
+   "summary": "Toyota Motor Engineering & Manufacturing (Toyota) is recalling certain 2002-2010 Lexus SC430, 2011 IS250, 2017 GX460, 2003-2008 Toyota Corolla, 2005-2006 Tundra, 2005-2007 Sequoia, and 2016-2017 4Runner vehicles equipped with cer…",
+   "units": 314029,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V748000"
+  },
+  {
+   "id": "26V747000",
+   "date": "2026-11-12",
+   "makes": [
+    "Mack"
+   ],
+   "models": [
+    "Anthem An (4)",
+    "Granite (Gr)",
+    "Lr",
+    "Pinnacle (Pi/Pn)"
+   ],
+   "more_models": 2,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Power Train:Driveline",
+   "summary": "Mack Trucks, Inc. (Mack) is recalling certain 2027 Anthem AN (4), Pioneer PR (4), Pinnacle (PI/PN), Granite (GR), TerraPro (TE), and LR vehicles. The driveline may be missing a snap ring in the slip yoke assembly, possibly causin…",
+   "units": 978,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V747000"
+  },
+  {
+   "id": "26V746000",
+   "date": "2026-11-12",
+   "makes": [
+    "Volvo"
+   ],
+   "models": [
+    "Vn",
+    "Vnl (4)",
+    "Vnr (4)"
+   ],
+   "more_models": 0,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Power Train:Driveline",
+   "summary": "Volvo Trucks North America (Volvo Trucks) is recalling certain 2027 VNL (4), VNR (4), and VN vehicles. The driveline may be missing a snap ring in the slip yoke assembly, possibly causing the driveline to separate from the vehicl…",
+   "units": 1078,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V746000"
+  },
+  {
+   "id": "26V745000",
+   "date": "2026-11-12",
+   "makes": [
+    "Winnebago"
+   ],
+   "models": [
+    "Thrive"
+   ],
+   "more_models": 0,
+   "years": [
+    2026,
+    2026
+   ],
+   "component": "Equipment:Other:Labels",
+   "summary": "Winnebago Towable (Winnebago) is recalling certain 2026 Thrive travel trailers. The original Gross Vehicle Weight Rating (GVWR) and Gross Axle Weight Rating (GAWR) were not listed the certification label after vehicle alterations…",
+   "units": 18,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V745000"
+  },
+  {
+   "id": "26V744000",
+   "date": "2026-11-11",
+   "makes": [
+    "Kenworth",
+    "Peterbilt"
+   ],
+   "models": [
+    "567",
+    "579",
+    "589",
+    "T680"
+   ],
+   "more_models": 2,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Forward Collision Avoidance: Automatic Emergency Braking",
+   "summary": "PACCAR Incorporated (PACCAR) is recalling certain 2027 Kenworth T680, T880, W990, Peterbilt 567, 579, and 589 vehicles. The forward-looking radar may falsely detect stationary or slow-moving objects in the left lane as relevant v…",
+   "units": 6185,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V744000"
+  },
+  {
+   "id": "26V743000",
+   "date": "2026-11-11",
+   "makes": [
+    "Kenworth"
+   ],
+   "models": [
+    "T280",
+    "T380",
+    "T680",
+    "T880"
+   ],
+   "more_models": 1,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Power Train:Driveline",
+   "summary": "PACCAR Incorporated (PACCAR) is recalling certain 2027 Kenworth T280, T380, T680, T880, and W990 vehicles. The drivelines may be missing a snap ring in the slip yoke assembly, causing the bearing cup to separate from the drivelin…",
+   "units": 982,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V743000"
+  },
+  {
+   "id": "26V742000",
+   "date": "2026-11-11",
+   "makes": [
+    "Indian"
+   ],
+   "models": [
+    "Chief",
+    "Chief Bobber"
+   ],
+   "more_models": 0,
+   "years": [
+    2025,
+    2026
+   ],
+   "component": "Service Brakes, Hydraulic:Antilock/Traction Control/Electronic Limited Slip:Abs Warning L…",
+   "summary": "Indian Motorcycle Company (Indian) is recalling certain 2025-2026 Chief and Chief Bobber motorcycles. The ABS warning light on the analog speedometer may fail to illuminate during an ABS fault or ABS event. As such, these vehicle…",
+   "units": 290,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V742000"
+  },
+  {
+   "id": "26V741000",
+   "date": "2026-11-10",
+   "makes": [
+    "New Flyer"
+   ],
+   "models": [
+    "Xd35",
+    "Xd40",
+    "Xd60",
+    "Xde60"
+   ],
+   "more_models": 0,
+   "years": [
+    2021,
+    2026
+   ],
+   "component": "Fuel System, Diesel:Delivery:Hoses, Lines/Piping, And Fittings",
+   "summary": "New Flyer of America, Inc. (New Flyer) is recalling certain 2021-2026-XD40, 2022-2026 XD35, 2023-2024 XDE60, and 2023-2026 XD60 transit buses. The remote fuel filter hoses may separate from the fitting, causing a fuel leak and an…",
+   "units": 1182,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V741000"
+  },
+  {
+   "id": "26V740000",
+   "date": "2026-11-09",
+   "makes": [
+    "Rosenbauer"
+   ],
+   "models": [
+    "Avenger",
+    "Commander",
+    "Warrior"
+   ],
+   "more_models": 0,
+   "years": [
+    2021,
+    2026
+   ],
+   "component": "Electrical System:Wiring:Fuses And Circuit Breakers",
+   "summary": "Rosenbauer America (Rosenbauer) is recalling certain 2021-2026 Commander, Warrior, and 2021, 2024-2025 Avenger emergency vehicles equipped with a Bussmann mini fuse box. The fuse box may not have the correct amperage capacity, ca…",
+   "units": 937,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V740000"
+  },
+  {
+   "id": "26V739000",
+   "date": "2026-11-09",
+   "makes": [
+    "Utilimaster"
+   ],
+   "models": [
+    "Upfit"
+   ],
+   "more_models": 0,
+   "years": [
+    2017,
+    2026
+   ],
+   "component": "Equipment:Other:Labels",
+   "summary": "Shyft Group (Shyft) is recalling certain 2017, 2020-2026 Utilimaster Upfit vehicles. The tire and loading label may not list the combined weight value. As such, these vehicles fail to comply with the requirements of Federal Motor…",
+   "units": 4399,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V739000"
+  },
+  {
+   "id": "26V738000",
+   "date": "2026-11-06",
+   "makes": [
+    "Altec"
+   ],
+   "models": [
+    "Aa Series Aerial Device",
+    "Am Series Aerial Device",
+    "An Series Aerial Device"
+   ],
+   "more_models": 0,
+   "years": [
+    2025,
+    2026
+   ],
+   "component": "Equipment:Mechanical:Boom/Crane/Ladder:Critical Fasteners",
+   "summary": "Altec Industries, Inc. (Altec) is recalling certain 2025-2026 AN Series, AA Series, and AM Series Aerial Device vehicles. The retention hardware for the rear mounting pin on the jib tilt cylinder may be improperly tightened.",
+   "units": 3083,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V738000"
+  },
+  {
+   "id": "26V737000",
+   "date": "2026-11-06",
+   "makes": [
+    "Freightliner",
+    "Western Star"
+   ],
+   "models": [
+    "108Sd",
+    "114Sd",
+    "47X",
+    "49X"
+   ],
+   "more_models": 3,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Power Train:Driveline",
+   "summary": "Daimler Trucks North America, LLC (DTNA) is recalling certain 2027 Western Star 49X, Western Star 47X, Freightliner Cascadia Fifth Gen, Freightliner Cascadia, Freightliner 114SD, Freightliner Business Class M2, and Freightliner 1…",
+   "units": 3894,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V737000"
+  },
+  {
+   "id": "26V736000",
+   "date": "2026-11-06",
+   "makes": [
+    "Freightliner",
+    "Western Star"
+   ],
+   "models": [
+    "4900",
+    "49X",
+    "Cascadia"
+   ],
+   "more_models": 0,
+   "years": [
+    2020,
+    2027
+   ],
+   "component": "Equipment:Other:Labels",
+   "summary": "Daimler Trucks North America, LLC (DTNA) is recalling certain 2020 Western Star 4900, 2024 Freightliner Cascadia, and 2027 Western Star 49X vehicles. The Gross Axle Weight Rating (GAWR) listed on the Federal Certification Label i…",
+   "units": 7,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V736000"
+  },
+  {
+   "id": "26V735000",
+   "date": "2026-11-05",
+   "makes": [
+    "Acura"
+   ],
+   "models": [
+    "Zdx"
+   ],
+   "more_models": 0,
+   "years": [
+    2024,
+    2024
+   ],
+   "component": "Electrical System:Software",
+   "summary": "Acura (American Honda Motor Co.) is recalling certain 2024 Acura ZDX vehicles equipped with all-wheel drive. A software error may unexpectedly activate the anti-lock brake system (ABS) and release brake pressure.",
+   "units": 14648,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V735000"
+  },
+  {
+   "id": "26V734000",
+   "date": "2026-11-05",
+   "makes": [
+    "Lamar Trailers"
+   ],
+   "models": [
+    "Gooseneck Trailer"
+   ],
+   "more_models": 0,
+   "years": [
+    2021,
+    2027
+   ],
+   "component": "Equipment:Mechanical:Spare Tire Mount/Rack",
+   "summary": "Lamar Trailers, Inc (Lamar Trailers) is recalling certain 2021-2027 gooseneck trailers. The spare tire may be improperly secured, allowing the spare tire to detach.",
+   "units": 8407,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V734000"
+  },
+  {
+   "id": "26V733000",
+   "date": "2026-11-04",
+   "makes": [
+    "BMW"
+   ],
+   "models": [
+    "228I",
+    "228Xi",
+    "328I",
+    "328Xi"
+   ],
+   "more_models": 9,
+   "years": [
+    2012,
+    2018
+   ],
+   "component": "Engine And Engine Cooling:Cooling System:Pump",
+   "summary": "BMW of North America, LLC (BMW) is recalling certain 2012-2016 3 Series, 5 Series, Z4, 2012-2015 X1, 2013-2017 X3, 2015-2016 4 Series Gran Coupe, 2 Series Convertible, 2014-2016 328xi Gran Turismo, 2 Series Coupe, 4 Series Conver…",
+   "units": 720796,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V733000"
+  },
+  {
+   "id": "26V732000",
+   "date": "2026-11-04",
+   "makes": [
+    "Volkswagen"
+   ],
+   "models": [
+    "Atlas"
+   ],
+   "more_models": 0,
+   "years": [
+    2027,
+    2027
+   ],
+   "component": "Child Seat:Vehicle Latch Anchor",
+   "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2027 Atlas vehicles. The second-row center seat ISOFIX/LATCH child seat anchor openings may be partially obstructed by surrounding stitching, preventing a child…",
+   "units": 3914,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V732000"
+  },
+  {
+   "id": "26V731000",
+   "date": "2026-11-04",
+   "makes": [
+    "BMW"
+   ],
+   "models": [
+    "I5 Edrive40",
+    "I5 M60 Xdrive",
+    "I5 Xdrive40",
+    "I7 Xdrive50"
+   ],
+   "more_models": 1,
+   "years": [
+    2026,
+    2027
+   ],
+   "component": "Electrical System:Propulsion System:Traction Battery Thermal:Management:Software",
+   "summary": "BMW of North America, LLC (BMW) is recalling certain 2027 i7 50xDrive, i7 60xDrive, 2026-2027 i5 xDrive40, i5 eDrive40, and i5 M60 vehicles. The high voltage battery charging software may be incorrect.",
+   "units": 286,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V731000"
+  },
+  {
+   "id": "26V730000",
+   "date": "2026-11-03",
+   "makes": [
+    "Harley-Davidson"
+   ],
+   "models": [
+    "Flhx",
+    "Flhxl",
+    "Flhxlse",
+    "Flhxse"
+   ],
+   "more_models": 5,
+   "years": [
+    2026,
+    2026
+   ],
+   "component": "Engine And Engine Cooling:Engine:Engine Control Module (Ecu/Ecm)",
+   "summary": "Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2026 FLHXLSE, FLTRXSTSE, FLHXSTSE, FLHXSE, FLHXL, FLTRXP, FLTRX, FLTRXL, and FLHX motorcycles. The engine control module (ECM) may communicate the incorrect gea…",
+   "units": 21643,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V730000"
+  },
+  {
+   "id": "26V729000",
+   "date": "2026-11-03",
+   "makes": [
+    "Spencer"
+   ],
+   "models": [
+    "Initial Attack",
+    "Pumper",
+    "Rescue"
+   ],
+   "more_models": 0,
+   "years": [
+    2024,
+    2026
+   ],
+   "component": "Equipment:Emergency:Fire Supression",
+   "summary": "Spencer Manufacturing, Inc. (Spencer) is recalling certain 2026 Rescue, 2025 Initial Attack, and 2024-2025 Pumper emergency vehicles. The display may stop responding to touch commands or fail to power on, preventing the activatio…",
+   "units": 5,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V729000"
+  },
+  {
+   "id": "26V728000",
+   "date": "2026-11-02",
+   "makes": [
+    "Hyundai"
+   ],
+   "models": [
+    "Kona Electric",
+    "Veloster N"
+   ],
+   "more_models": 0,
+   "years": [
+    2019,
+    2023
+   ],
+   "component": "Air Bags: Air Bag/Restraint Control Module:Software",
+   "summary": "Hyundai Motor America (Hyundai) is recalling certain 2019-2022 Veloster N, 2019-2023 Kona Electric vehicles. A software error in the air bag control unit (ACU) may improperly deactivate the air bag system and seat belt pretension…",
+   "units": 37901,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V728000"
+  },
+  {
+   "id": "26V727000",
+   "date": "2026-11-02",
+   "makes": [
+    "Ford"
+   ],
+   "models": [
+    "Transit"
+   ],
+   "more_models": 0,
+   "years": [
+    2026,
+    2026
+   ],
+   "component": "Electrical System:Body Control Module:Software",
+   "summary": "Ford Motor Company (Ford) is recalling certain 2026 Transit vehicles. A software error in the body control module C (BCMC) may cause the module to freeze, shutting off certain features such as interior lighting and trailer lights…",
+   "units": 60956,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V727000"
+  },
+  {
+   "id": "26V726000",
+   "date": "2026-11-02",
+   "makes": [
+    "Ford"
+   ],
+   "models": [
+    "Explorer"
+   ],
+   "more_models": 0,
+   "years": [
+    2026,
+    2027
+   ],
+   "component": "Interior Lighting",
+   "summary": "Ford Motor Company (Ford) is recalling certain 2026-2027 Explorer Police Interceptor vehicles. A phantom \"Global On\" command in the overhead console may illuminate the map lights and prevent them from being turned off. As such, t…",
+   "units": 33578,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V726000"
+  }
+ ]
 }

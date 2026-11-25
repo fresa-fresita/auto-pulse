@@ -1,5 +1,1194 @@
 {
- "updated": null,
- "sources": [],
- "items": []
+ "updated": "2026-11-25T07:12:39Z",
+ "sources": [
+  {
+   "name": "CBT News",
+   "ok": true,
+   "count": 10
+  },
+  {
+   "name": "Automotive World",
+   "ok": true,
+   "count": 20
+  },
+  {
+   "name": "Auto Rental News",
+   "ok": true,
+   "count": 100
+  },
+  {
+   "name": "Electrek",
+   "ok": true,
+   "count": 150
+  }
+ ],
+ "items": [
+  {
+   "title": "Geely enters Cyprus with an all-electrified line-up",
+   "link": "https://www.automotiveworld.com/news/geely-enters-cyprus-with-an-all-electrified-line-up/",
+   "source": "Automotive World",
+   "published": "2026-11-25T05:15:28Z",
+   "tags": []
+  },
+  {
+   "title": "Japanese OEMs pledge billions to defend Thai base",
+   "link": "https://www.automotiveworld.com/news/japanese-oems-pledge-billions-to-defend-thai-base/",
+   "source": "Automotive World",
+   "published": "2026-11-24T23:23:29Z",
+   "tags": []
+  },
+  {
+   "title": "Cadillac’s luxury 3-row EV just got more expensive, now starting at over $80,000",
+   "link": "https://electrek.co/2026/11/24/cadillacs-3-row-ev-more-expensive-now-starting-at-80k/",
+   "source": "Electrek",
+   "published": "2026-11-24T22:20:15Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "VW will pay EV drivers in Germany up to €720 to plug in at home",
+   "link": "https://electrek.co/2026/11/24/vw-will-pay-ev-drivers-in-germany-up-to-e720-to-plug-in-at-home/",
+   "source": "Electrek",
+   "published": "2026-11-24T20:28:22Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Hyundai IONIQ 3 spotted on US roads: Is the affordable EV coming to the US? [Images]",
+   "link": "https://electrek.co/2026/11/24/hyundai-ioniq-3-spotted-us-affordable-ev-images/",
+   "source": "Electrek",
+   "published": "2026-11-24T20:07:39Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Bluetti Elite 300 power station exclusively at $1,044, ECOVACS LiDAR Pro robot mower lows from $949, GoTrax kids go kart, more",
+   "link": "https://electrek.co/2026/11/24/bluetti-elite-300-power-station-ecovacs-lidar-pro-robot-mower-gotrax-go-kart-more/",
+   "source": "Electrek",
+   "published": "2026-11-24T19:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Conversica’s Ignite uses AI to find revenue across the ownership life cycle",
+   "link": "https://www.cbtnews.com/conversica-ignite-ai-finds-revenue/",
+   "source": "CBT News",
+   "published": "2026-11-24T18:25:49Z",
+   "tags": []
+  },
+  {
+   "title": "NADA’s Mike Stanton outlines top priorities for dealers heading into 2027",
+   "link": "https://www.cbtnews.com/nadas-mike-stanton-2027-priorities/",
+   "source": "CBT News",
+   "published": "2026-11-24T18:22:28Z",
+   "tags": []
+  },
+  {
+   "title": "BYD in talks to buy Ineos’ French factory as Grenadier moves to US",
+   "link": "https://electrek.co/2026/11/24/byd-ineos-hambach-factory-france-grenadier-us/",
+   "source": "Electrek",
+   "published": "2026-11-24T17:58:40Z",
+   "tags": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Two tech companies tried to reinvent the e-bike. Why DJI’s Amflow soared while Rivian’s ALSO floundered",
+   "link": "https://electrek.co/2026/11/24/two-tech-companies-tried-to-reinvent-the-e-bike-why-djis-amflow-soared-while-rivians-also-floundered/",
+   "source": "Electrek",
+   "published": "2026-11-24T17:19:16Z",
+   "tags": []
+  },
+  {
+   "title": "The Porsche Boxster EV is finally almost here, and it will be the most powerful 718 yet [Images]",
+   "link": "https://electrek.co/2026/11/24/porsche-boxster-ev-coming-most-powerful-718-ever-images/",
+   "source": "Electrek",
+   "published": "2026-11-24T17:16:08Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Trump says he ‘protected’ Musk in first term after ‘a tough incident’ – what could it be?",
+   "link": "https://electrek.co/2026/11/24/trump-protected-elon-musk-first-term-tough-incident/",
+   "source": "Electrek",
+   "published": "2026-11-24T16:24:11Z",
+   "tags": []
+  },
+  {
+   "title": "Greenworks snow blower + shovel kits at lows from $178, Worx tools up to 45% off, Segway Navimow robot mower lows, more",
+   "link": "https://electrek.co/2026/11/24/greenworks-snow-blower-shovel-kits-worx-tools-segway-navimow-robot-mower-more/",
+   "source": "Electrek",
+   "published": "2026-11-24T16:15:53Z",
+   "tags": []
+  },
+  {
+   "title": "VW wage talks kick off with prop coffins and strike threats",
+   "link": "https://www.automotiveworld.com/news/vw-wage-talks-kick-off-with-prop-coffins-and-strike-threats/",
+   "source": "Automotive World",
+   "published": "2026-11-24T15:58:07Z",
+   "tags": []
+  },
+  {
+   "title": "BYD launches the new Tang EV, a luxury 5-seat SUV with two +30″ screens for under $30,000",
+   "link": "https://electrek.co/2026/11/24/byd-launches-new-luxury-5-seat-ev-suv-two-30-screens-under-30000/",
+   "source": "Electrek",
+   "published": "2026-11-24T15:40:49Z",
+   "tags": [
+    "launch",
+    "ev"
+   ]
+  },
+  {
+   "title": "Nuro pulls safety drivers from Lucid Gravity Uber robotaxis in Bay Area",
+   "link": "https://electrek.co/2026/11/24/nuro-lucid-gravity-uber-robotaxi-driverless-testing-bay-area/",
+   "source": "Electrek",
+   "published": "2026-11-24T15:32:19Z",
+   "tags": []
+  },
+  {
+   "title": "Pentagon taps automakers for drone production, Volkswagen union tensions grow, Hyundai CEO outlines future strategy",
+   "link": "https://www.cbtnews.com/cbt-automotive-newscast-november-24-2026/",
+   "source": "CBT News",
+   "published": "2026-11-24T15:00:48Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla (TSLA), SpaceX race for year-end merger deal before new Congress",
+   "link": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+   "source": "Electrek",
+   "published": "2026-11-24T14:43:50Z",
+   "tags": [
+    "deal"
+   ]
+  },
+  {
+   "title": "BEVs near 30% of EU sales as Chinese brands take the gains",
+   "link": "https://www.automotiveworld.com/news/bevs-near-30-of-eu-sales-as-chinese-brands-take-the-gains/",
+   "source": "Automotive World",
+   "published": "2026-11-24T14:04:33Z",
+   "tags": []
+  },
+  {
+   "title": "Incumbents rule Brazil’s truck market, but China is circling",
+   "link": "https://www.automotiveworld.com/analysis/incumbents-rule-brazils-truck-market-but-china-is-circling/",
+   "source": "Automotive World",
+   "published": "2026-11-24T12:20:13Z",
+   "tags": []
+  },
+  {
+   "title": "EU hybrid cap starts 1 December, expands beyond China",
+   "link": "https://www.automotiveworld.com/news/eu-hybrid-cap-starts-1-december-expands-beyond-china/",
+   "source": "Automotive World",
+   "published": "2026-11-24T12:20:06Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Pentagon looks to GM, Ford and suppliers to scale up drone production",
+   "link": "https://www.cbtnews.com/pentagon-looks-to-gm-ford-drone-production/",
+   "source": "CBT News",
+   "published": "2026-11-24T11:44:42Z",
+   "tags": []
+  },
+  {
+   "title": "Volkswagen faces deeper union conflict as wage talks begin",
+   "link": "https://www.cbtnews.com/volkswagen-union-talks-deepen/",
+   "source": "CBT News",
+   "published": "2026-11-24T11:07:00Z",
+   "tags": []
+  },
+  {
+   "title": "Slate’s sub-$25k pickup is almost here, and reviews are mixed",
+   "link": "https://www.cbtnews.com/slates-is-almost-here/",
+   "source": "CBT News",
+   "published": "2026-11-24T11:01:57Z",
+   "tags": []
+  },
+  {
+   "title": "Carvana expands same-day delivery in Rhode Island, New Hampshire",
+   "link": "https://www.cbtnews.com/carvana-same-day-delivery-rh-nh/",
+   "source": "CBT News",
+   "published": "2026-11-24T10:45:48Z",
+   "tags": []
+  },
+  {
+   "title": "Hyundai CEO José Muñoz shares exclusive look at the automaker’s future",
+   "link": "https://www.cbtnews.com/hyundai-ceo-jose-munoz/",
+   "source": "CBT News",
+   "published": "2026-11-24T10:03:53Z",
+   "tags": []
+  },
+  {
+   "title": "Building a service-first dealership powered by AI",
+   "link": "https://www.cbtnews.com/building-a-service-first-dealership/",
+   "source": "CBT News",
+   "published": "2026-11-24T10:03:33Z",
+   "tags": []
+  },
+  {
+   "title": "Your car may be the target of a deliberate scam",
+   "link": "https://www.cbtnews.com/your-car-may-be-the-target-of-a-deliberate-scam/",
+   "source": "CBT News",
+   "published": "2026-11-24T09:59:27Z",
+   "tags": []
+  },
+  {
+   "title": "How AI in automotive validation is accelerating vehicle development",
+   "link": "https://www.automotiveworld.com/partner-content/how-ai-in-automotive-validation-is-accelerating-vehicle-development/",
+   "source": "Automotive World",
+   "published": "2026-11-24T09:00:16Z",
+   "tags": []
+  },
+  {
+   "title": "The e-bike industry has a horsepower problem",
+   "link": "https://electrek.co/2026/11/23/the-e-bike-industry-has-a-horsepower-problem/",
+   "source": "Electrek",
+   "published": "2026-11-24T06:38:11Z",
+   "tags": []
+  },
+  {
+   "title": "Nuro, Lucid and Uber begin driverless robotaxi testing",
+   "link": "https://www.automotiveworld.com/news/nuro-lucid-and-uber-begin-driverless-robotaxi-testing/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:35:58Z",
+   "tags": []
+  },
+  {
+   "title": "BYD moves to acquire Hambach plant from Ineos Automotive",
+   "link": "https://www.automotiveworld.com/news/byd-moves-to-acquire-hambach-plant-from-ineos-automotive/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:30:50Z",
+   "tags": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Electric 718 Boxster to debut in early 2027, says Porsche",
+   "link": "https://www.automotiveworld.com/news/electric-718-boxster-to-debut-in-early-2027-says-porsche/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:25:52Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "New Porsche dashcam links recordings to My Porsche app",
+   "link": "https://www.automotiveworld.com/topics/software-defined-vehicle/new-porsche-dashcam-links-recordings-to-my-porsche-app/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:20:31Z",
+   "tags": []
+  },
+  {
+   "title": "Daimler Truck to take minority stake in SinterCast",
+   "link": "https://www.automotiveworld.com/news/daimler-truck-to-take-minority-stake-in-sintercast/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:15:24Z",
+   "tags": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Xpeng WorldGPT uses one AI model for cars and robots",
+   "link": "https://www.automotiveworld.com/news/xpeng-worldgpt-uses-one-ai-model-for-cars-and-robots/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:10:41Z",
+   "tags": []
+  },
+  {
+   "title": "Elli launches vehicle-to-grid charging offer in Germany",
+   "link": "https://www.automotiveworld.com/news/elli-launches-vehicle-to-grid-charging-offer-in-germany/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:05:30Z",
+   "tags": [
+    "launch",
+    "ev"
+   ]
+  },
+  {
+   "title": "Visteon telematics hardware goes into production in India",
+   "link": "https://www.automotiveworld.com/news/visteon-telematics-hardware-goes-into-production-in-india/",
+   "source": "Automotive World",
+   "published": "2026-11-24T06:00:14Z",
+   "tags": []
+  },
+  {
+   "title": "ZF Digital Toolbox eases shift to software-defined trucks",
+   "link": "https://www.automotiveworld.com/news/zf-digital-toolbox-eases-shift-to-software-defined-trucks/",
+   "source": "Automotive World",
+   "published": "2026-11-24T05:55:42Z",
+   "tags": []
+  },
+  {
+   "title": "Volvo Trucks wins 375-truck Volvo VNL order from E&O One",
+   "link": "https://www.automotiveworld.com/topics/commercial-vehicle/volvo-trucks-wins-375-truck-volvo-vnl-order-from-eo-one/",
+   "source": "Automotive World",
+   "published": "2026-11-24T05:50:26Z",
+   "tags": []
+  },
+  {
+   "title": "Subaru E-Outback goes on sale in the UK from £49,995",
+   "link": "https://www.automotiveworld.com/news/subaru-e-outback-goes-on-sale-in-the-uk-from-49995/",
+   "source": "Automotive World",
+   "published": "2026-11-24T05:45:21Z",
+   "tags": []
+  },
+  {
+   "title": "Xpeng X-World 1.6 replays real roads as repeatable tests",
+   "link": "https://www.automotiveworld.com/news/xpeng-x-world-1-6-replays-real-roads-as-repeatable-tests/",
+   "source": "Automotive World",
+   "published": "2026-11-24T05:40:35Z",
+   "tags": []
+  },
+  {
+   "title": "Toyoda Gosei automates truck payload checks at Yatomi",
+   "link": "https://www.automotiveworld.com/news/toyoda-gosei-automates-truck-payload-checks-at-yatomi/",
+   "source": "Automotive World",
+   "published": "2026-11-24T05:35:36Z",
+   "tags": []
+  },
+  {
+   "title": "One of the world’s biggest zinc mines is getting Alaska’s largest solar farm",
+   "link": "https://electrek.co/2026/11/23/one-of-the-worlds-biggest-zinc-mines-is-getting-alaskas-largest-solar-farm/",
+   "source": "Electrek",
+   "published": "2026-11-23T23:10:07Z",
+   "tags": []
+  },
+  {
+   "title": "Hyundai’s new Kona N Line is already out testing [Video]",
+   "link": "https://electrek.co/2026/11/23/hyundais-new-kona-n-line-spotted-first-time-video/",
+   "source": "Electrek",
+   "published": "2026-11-23T21:59:39Z",
+   "tags": []
+  },
+  {
+   "title": "Subaru is cutting EV prices by dropping one of its most distinctive features",
+   "link": "https://electrek.co/2026/11/23/subaru-cuts-ev-prices-dropping-most-distinctive-feature/",
+   "source": "Electrek",
+   "published": "2026-11-23T19:35:36Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "EcoFlow TITAN 5000 Classic power station new $2,089 low, Velotric Nomad 2 e-bike + FREE extra battery $1,799 ($740 off), more",
+   "link": "https://electrek.co/2026/11/23/ecoflow-titan-5000-classic-power-station-velotric-nomad-2-e-bike-more/",
+   "source": "Electrek",
+   "published": "2026-11-23T19:00:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Brazilian Rental Market Grows Revenue, Fleet",
+   "link": "https://www.autorentalnews.com/news/brazilian-rental-market-grows-revenue-fleet",
+   "source": "Auto Rental News",
+   "published": "2026-11-23T18:47:07Z",
+   "tags": [
+    "rental"
+   ]
+  },
+  {
+   "title": "BYD Ti7 banned from the EU for copying the Land Rover Defender’s design",
+   "link": "https://electrek.co/2026/11/23/byd-ti7-banned-eu-land-rover-defender-design/",
+   "source": "Electrek",
+   "published": "2026-11-23T17:18:26Z",
+   "tags": []
+  },
+  {
+   "title": "Toyota is giving the Corolla a radical makeover, including its first 100% electric version",
+   "link": "https://electrek.co/2026/11/23/toyota-corolla-radical-makeover-first-ev/",
+   "source": "Electrek",
+   "published": "2026-11-23T17:02:29Z",
+   "tags": []
+  },
+  {
+   "title": "Black Friday 2026 Green Deals Hub: e-bikes, EVs, power stations, tools, appliances, and more",
+   "link": "https://electrek.co/2026/11/23/black-friday-2026-green-deals-hub-e-bikes-evs-power-stations-tools-appliances-and-more/",
+   "source": "Electrek",
+   "published": "2026-11-23T16:28:11Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla FSD v15 is AI4’s last shot as Musk reveals how little compute is left",
+   "link": "https://electrek.co/2026/11/23/tesla-fsd-v15-ai4-last-shot-compute-limit/",
+   "source": "Electrek",
+   "published": "2026-11-23T16:00:53Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "BMW’s new iX4 is almost here, with 428 miles of range and seriously fast charging",
+   "link": "https://electrek.co/2026/11/23/bmws-ix4-promises-428-miles-range-and-ultra-fast-charging/",
+   "source": "Electrek",
+   "published": "2026-11-23T15:21:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "If you can’t beat ’em: VW to export 300,000 Chinese-built cars per year by 2030",
+   "link": "https://electrek.co/2026/11/23/if-you-cant-beat-em-vw-to-export-300000-chinese-built-cars-per-year-by-2030/",
+   "source": "Electrek",
+   "published": "2026-11-23T12:39:41Z",
+   "tags": []
+  },
+  {
+   "title": "Can Car Rental Operators Make a Difference in Washington?",
+   "link": "https://www.autorentalnews.com/videos/can-car-rental-operators-make-a-difference-in-washington",
+   "source": "Auto Rental News",
+   "published": "2026-11-23T02:21:28Z",
+   "tags": [
+    "rental"
+   ]
+  },
+  {
+   "title": "11-term House rep who mocked a kid’s letter about EVs has lost her seat (Upd.)",
+   "link": "https://electrek.co/2026/11/22/this-boomer-rep-mocked-a-child-about-the-4-trillion-debt-she-saddled-him-with/",
+   "source": "Electrek",
+   "published": "2026-11-22T19:44:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Briggs & Stratton keeps the lights on longer with bigger 16 kWh LFP battery",
+   "link": "https://electrek.co/2026/11/22/briggs-stratton-keeps-the-lights-on-longer-with-bigger-16-kwh-lfp-battery/",
+   "source": "Electrek",
+   "published": "2026-11-22T14:22:49Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "From equipment to ferries to locomotives, Illinois ports are getting a ZEV makeover",
+   "link": "https://electrek.co/2026/11/22/from-equipment-to-ferries-to-locomotives-illinois-ports-are-getting-a-zev-makeover/",
+   "source": "Electrek",
+   "published": "2026-11-22T13:01:35Z",
+   "tags": []
+  },
+  {
+   "title": "E-quipment highlight: Tadano rolls out 35-ton V320RC electric crane",
+   "link": "https://electrek.co/2026/11/22/e-quipment-highlight-tadano-rolls-out-35-ton-v320rc-electric-crane/",
+   "source": "Electrek",
+   "published": "2026-11-22T12:20:00Z",
+   "tags": []
+  },
+  {
+   "title": "Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck",
+   "link": "https://electrek.co/2026/11/21/rumor-hyundai-is-getting-ready-to-roll-out-an-all-new-all-electric-work-truck/",
+   "source": "Electrek",
+   "published": "2026-11-22T02:13:24Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "Xiaomi’s 1,548 hp electric supercar is going global, starting in the UAE",
+   "link": "https://electrek.co/2026/11/21/red-wave-xiaomi-goes-global-with-first-overseas-ev-sales/",
+   "source": "Electrek",
+   "published": "2026-11-22T01:02:38Z",
+   "tags": []
+  },
+  {
+   "title": "Here are 7 great reasons rural drivers SHOULD embrace EVs in 2027",
+   "link": "https://electrek.co/2026/11/21/here-are-6-great-reasons-rural-drivers-should-embrace-evs-in-2026/",
+   "source": "Electrek",
+   "published": "2026-11-21T23:50:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
+   "link": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+   "source": "Electrek",
+   "published": "2026-11-21T19:56:56Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "How much does charging an EV really cost? This Redditor says $7 per month",
+   "link": "https://electrek.co/2026/11/21/how-much-does-charging-an-ev-really-cost-this-redditor-says-7-per-month/",
+   "source": "Electrek",
+   "published": "2026-11-21T19:53:32Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla Cybertruck’s already impressive turning radius gets even tighter",
+   "link": "https://electrek.co/2026/11/21/tesla-cybertruck-tighter-turning-radius-update/",
+   "source": "Electrek",
+   "published": "2026-11-21T19:14:57Z",
+   "tags": []
+  },
+  {
+   "title": "Toyota just built a tiny folding electric bike to fit in your trunk",
+   "link": "https://electrek.co/2026/11/21/toyota-just-built-a-tiny-folding-electric-bike-to-fit-in-your-trunk/",
+   "source": "Electrek",
+   "published": "2026-11-21T18:34:13Z",
+   "tags": []
+  },
+  {
+   "title": "E-quipment highlight: Mantsinen 200 material handler has tank treads",
+   "link": "https://electrek.co/2026/11/21/e-quipment-highlight-mantsinen-200-material-handler-has-tank-treads/",
+   "source": "Electrek",
+   "published": "2026-11-21T18:12:54Z",
+   "tags": []
+  },
+  {
+   "title": "I ride e-bikes for a living. This is the real gear I actually use",
+   "link": "https://electrek.co/2026/11/21/i-ride-e-bikes-for-a-living-this-is-the-real-gear-i-actually-use/",
+   "source": "Electrek",
+   "published": "2026-11-21T18:08:24Z",
+   "tags": []
+  },
+  {
+   "title": "Electric cars are finally mainstream in GTA 6, and Vice City is full of them",
+   "link": "https://electrek.co/2026/11/21/gta-6-electric-vehicles-mainstream-vice-city/",
+   "source": "Electrek",
+   "published": "2026-11-21T16:21:57Z",
+   "tags": []
+  },
+  {
+   "title": "Elon Musk freezes at awkward Tesla Argentina launch: ‘I don’t know what to say’",
+   "link": "https://electrek.co/2026/11/21/elon-musk-tesla-argentina-launch-awkward-video-milei/",
+   "source": "Electrek",
+   "published": "2026-11-21T15:11:17Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "BYD offers a first look at its new flagship people mover",
+   "link": "https://electrek.co/2026/11/20/byd-first-look-new-flagship-people-mover/",
+   "source": "Electrek",
+   "published": "2026-11-20T21:42:44Z",
+   "tags": []
+  },
+  {
+   "title": "This 500 kWh energy storage system runs on retired EV batteries",
+   "link": "https://electrek.co/2026/11/20/this-500-kwh-energy-storage-system-runs-on-retired-ev-batteries/",
+   "source": "Electrek",
+   "published": "2026-11-20T21:08:29Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Kia, Lucid, and Volkswagen are slashing EV prices by $10,000+ for Black Friday",
+   "link": "https://electrek.co/2026/11/20/kia-lucid-vw-slash-ev-prices-by-10000-black-friday/",
+   "source": "Electrek",
+   "published": "2026-11-20T19:59:48Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Podcast: Tesla’s ‘personal’ Cybercab, Ford’s LFP for Fathom, Aptera delivers, and more",
+   "link": "https://electrek.co/2026/11/20/podcast-teslas-personal-cybercab-fords-lfp-for-fathom-aptera-delivers-and-more/",
+   "source": "Electrek",
+   "published": "2026-11-20T19:56:11Z",
+   "tags": []
+  },
+  {
+   "title": "Anker S5000 5kWh power station back at $2,375 exclusive low ($1,225 off), Segway Max G3 Plus e-scooter new $1,000 low, more",
+   "link": "https://electrek.co/2026/11/20/anker-s5000-5kwh-power-station-segway-max-g3-plus-e-scooter-more/",
+   "source": "Electrek",
+   "published": "2026-11-20T19:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Renault undercuts BYD with a new EV that costs less than $20,000",
+   "link": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
+   "source": "Electrek",
+   "published": "2026-11-20T17:38:44Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla FSD approved in Italy, the first big EU market to say yes",
+   "link": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
+   "source": "Electrek",
+   "published": "2026-11-20T15:50:46Z",
+   "tags": []
+  },
+  {
+   "title": "Volkswagen’s new ID. Polo GTI Clubsport is the electric hot hatch we want, but can’t have",
+   "link": "https://electrek.co/2026/11/20/vws-new-id-polo-gti-clubsport-ev-hot-hatch/",
+   "source": "Electrek",
+   "published": "2026-11-20T15:29:31Z",
+   "tags": []
+  },
+  {
+   "title": "Double guns: ultra-class haul truck packs dual-gun MCS charging, 4 MWh battery",
+   "link": "https://electrek.co/2026/11/20/double-guns-ultra-class-haul-truck-packs-dual-gun-mcs-charging-4-mwh-battery/",
+   "source": "Electrek",
+   "published": "2026-11-20T11:55:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "GM’s V2G pilot wants to pay California drivers for power from parked EVs",
+   "link": "https://electrek.co/2026/11/19/gms-v2g-pilot-wants-to-pay-california-drivers-for-power-from-parked-evs/",
+   "source": "Electrek",
+   "published": "2026-11-20T00:37:45Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "NSSL keeps growing its electric terminal truck fleet, with no plans to stop",
+   "link": "https://electrek.co/2026/11/19/nssl-keeps-growing-its-electric-terminal-truck-fleet-with-no-plans-to-stop/",
+   "source": "Electrek",
+   "published": "2026-11-20T00:30:53Z",
+   "tags": []
+  },
+  {
+   "title": "Alpitronic’s new SC plant to build 400 kW and 1 MW fast chargers",
+   "link": "https://electrek.co/2026/11/19/alpitronics-new-sc-plant-to-build-400-kw-and-1-mw-fast-chargers/",
+   "source": "Electrek",
+   "published": "2026-11-19T22:34:09Z",
+   "tags": []
+  },
+  {
+   "title": "BYD’s new Han EV spotted without camo, showing off its sleek fastback design",
+   "link": "https://electrek.co/2026/11/19/byds-new-han-ev-spotted-without-camo-showing-off-fastback-design/",
+   "source": "Electrek",
+   "published": "2026-11-19T22:21:09Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Kia’s cheapest EV is coming next year, and it could cost under $25,000",
+   "link": "https://electrek.co/2026/11/19/kias-cheapest-ev-coming-2027-under-25k/",
+   "source": "Electrek",
+   "published": "2026-11-19T20:08:29Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "EcoFlow Black Friday Sale + flash deals drop DELTA 3800 Gen4 to $1,614 low, Segway Xyber Air e-bike $1,800 low in sale, more",
+   "link": "https://electrek.co/2026/11/19/ecoflow-black-friday-sale-delta-3800-gen4-segway-xyber-air-e-bike-more/",
+   "source": "Electrek",
+   "published": "2026-11-19T19:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Hyundai claims 2027’s ‘Best EV Brand’ title as the IONIQ 5 and IONIQ 9 impress",
+   "link": "https://electrek.co/2026/11/19/hyundai-2027-best-ev-brand-ioniq-5-ioniq-9/",
+   "source": "Electrek",
+   "published": "2026-11-19T17:58:46Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "BYD’s folding steering wheel isn’t a concept — it’s in a $49K SUV now",
+   "link": "https://electrek.co/2026/11/19/byd-folding-steering-wheel-tai-9-production/",
+   "source": "Electrek",
+   "published": "2026-11-19T16:24:52Z",
+   "tags": []
+  },
+  {
+   "title": "The Volkswagen ID. Buzz Beach is an electric van built for camping, but it’s not cheap",
+   "link": "https://electrek.co/2026/11/19/vw-reveals-id-buzz-beach-ev-camper-van-not-cheap/",
+   "source": "Electrek",
+   "published": "2026-11-19T15:51:28Z",
+   "tags": []
+  },
+  {
+   "title": "Aptera (SEV) completes its first customer solar EV — for its top crowdfunder",
+   "link": "https://electrek.co/2026/11/19/aptera-sev-first-solar-ev-customer-delivery-investor/",
+   "source": "Electrek",
+   "published": "2026-11-19T14:13:20Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Elon Musk announces another Tesla vehicle no one asked for",
+   "link": "https://electrek.co/2026/11/19/musk-tesla-model-y-no-steering-wheel-7-seat/",
+   "source": "Electrek",
+   "published": "2026-11-19T13:59:10Z",
+   "tags": []
+  },
+  {
+   "title": "Porsche’s newest electric car is a tiny 50 mph replica of a legendary racer",
+   "link": "https://electrek.co/2026/11/19/porsches-newest-electric-car-is-a-tiny-50-mph-replica-of-a-legendary-racer/",
+   "source": "Electrek",
+   "published": "2026-11-19T11:36:34Z",
+   "tags": []
+  },
+  {
+   "title": "Official 2026 Amazon Black Friday sale now live! Millions of deals: Apple, Google, TVs, home, more",
+   "link": "https://9to5toys.com/2026/11/19/amazon-2026-black-friday-sale-now-live/",
+   "source": "Electrek",
+   "published": "2026-11-19T08:01:37Z",
+   "tags": []
+  },
+  {
+   "title": "The world’s biggest oil shock could give EVs and solar a boost",
+   "link": "https://electrek.co/2026/11/18/the-worlds-biggest-oil-shock-could-give-evs-and-solar-a-boost/",
+   "source": "Electrek",
+   "published": "2026-11-19T05:00:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla crashes make headlines, Lidar makes sense, IONNA makes it easy",
+   "link": "https://electrek.co/2026/11/18/tesla-crashes-make-headlines-lidar-makes-sense-ionna-makes-it-easy/",
+   "source": "Electrek",
+   "published": "2026-11-19T01:50:06Z",
+   "tags": []
+  },
+  {
+   "title": "US battery storage just topped 200 GWh – here’s where it is",
+   "link": "https://electrek.co/2026/11/18/us-battery-storage-just-topped-200-gwh-heres-where-it-is/",
+   "source": "Electrek",
+   "published": "2026-11-18T22:36:48Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Toyota expands C-HR EV recall to 19,000 globally",
+   "link": "https://electrek.co/2026/11/18/toyota-expands-c-hr-ev-recall-to-19000-globally/",
+   "source": "Electrek",
+   "published": "2026-11-18T21:53:43Z",
+   "tags": [
+    "recall",
+    "ev"
+   ]
+  },
+  {
+   "title": "BYD spotted testing another boxy midsize SUV",
+   "link": "https://electrek.co/2026/11/18/byd-spotted-testing-another-boxy-midsize-suv/",
+   "source": "Electrek",
+   "published": "2026-11-18T20:24:20Z",
+   "tags": []
+  },
+  {
+   "title": "IONNA enables Plug & Charge for Tesla, opens 22 bay site in Westminster, CA",
+   "link": "https://electrek.co/2026/11/18/ionna-enables-plug-charge-for-tesla-opens-22-bay-site-in-westminster-ca/",
+   "source": "Electrek",
+   "published": "2026-11-18T19:34:52Z",
+   "tags": []
+  },
+  {
+   "title": "ENGWE Eagle e-dirt bike new $799 low + M20 3.0 e-bike $647 off, Anker eufy Wall Light Cam S4 new lows from $150, more",
+   "link": "https://electrek.co/2026/11/18/engwe-eagle-electric-dirt-bike-m20-3-0-e-bike-anker-eufy-wall-light-cam-s4-more/",
+   "source": "Electrek",
+   "published": "2026-11-18T19:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Kia went from this one quirky EV 40 years ago to an entire electric lineup",
+   "link": "https://electrek.co/2026/11/18/kia-one-quirky-ev-40-years-ago-to-entire-ev-lineup/",
+   "source": "Electrek",
+   "published": "2026-11-18T18:34:27Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla toughens FSD driver monitoring in Europe while loosening it in the US",
+   "link": "https://electrek.co/2026/11/18/tesla-fsd-driver-monitoring-europe-stricter-than-us/",
+   "source": "Electrek",
+   "published": "2026-11-18T18:33:41Z",
+   "tags": []
+  },
+  {
+   "title": "Rivian’s ALSO pauses high-tech e-bike deliveries over ‘software issues’ that we saw coming",
+   "link": "https://electrek.co/2026/11/18/rivians-also-pauses-high-tech-e-bike-deliveries-over-software-issues-that-we-saw-coming/",
+   "source": "Electrek",
+   "published": "2026-11-18T17:23:00Z",
+   "tags": []
+  },
+  {
+   "title": "West Coast Customs turns a Tesla Model 3 into a 1955 Chevy Bel Air",
+   "link": "https://electrek.co/2026/11/18/west-coast-customs-tesla-model-3-1955-chevy-bel-air-ev/",
+   "source": "Electrek",
+   "published": "2026-11-18T17:13:00Z",
+   "tags": []
+  },
+  {
+   "title": "Ford’s first LFP batteries are en route, and the $30,000 Fathom EV pickup will get them first",
+   "link": "https://electrek.co/2026/11/18/fords-first-lfp-batteries-en-route-30k-fathom-ev-pickup/",
+   "source": "Electrek",
+   "published": "2026-11-18T17:00:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Amflow launches its first city e-bikes, packing huge torque and serious smart tech",
+   "link": "https://electrek.co/2026/11/18/amflow-launches-its-first-city-e-bikes-packing-huge-torque-and-serious-smart-tech/",
+   "source": "Electrek",
+   "published": "2026-11-18T15:55:42Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "Tesla’s Semi Megacharger network hits 7 sites, far short of 37 goal",
+   "link": "https://electrek.co/2026/11/18/tesla-semi-megacharger-network-mesquite-texas/",
+   "source": "Electrek",
+   "published": "2026-11-18T15:43:18Z",
+   "tags": []
+  },
+  {
+   "title": "Volvo EWR150 Electric wheeled excavator gets to work in Luxembourg",
+   "link": "https://electrek.co/2026/11/18/volvo-ewr150-electric-wheeled-excavator-gets-to-work-in-luxembourg/",
+   "source": "Electrek",
+   "published": "2026-11-18T15:34:06Z",
+   "tags": []
+  },
+  {
+   "title": "BYD’s luxury SUV pulled a nearly 400,000-pound jumbo jet on just two wheels [Video]",
+   "link": "https://electrek.co/2026/11/18/byds-luxury-suv-pulls-400000-lb-jumbo-jet-on-two-wheels-video/",
+   "source": "Electrek",
+   "published": "2026-11-18T15:15:48Z",
+   "tags": []
+  },
+  {
+   "title": "Current classics: Lord mayor of London’s limo latest to go electric",
+   "link": "https://electrek.co/2026/11/18/current-classics-lord-mayor-of-londons-limo-latest-to-go-electric/",
+   "source": "Electrek",
+   "published": "2026-11-18T12:31:45Z",
+   "tags": []
+  },
+  {
+   "title": "Elderly Florida man leads police on wild 16 mph e-bike chase. Thank goodness they caught him",
+   "link": "https://electrek.co/2026/11/17/elderly-florida-man-leads-police-on-wild-16-mph-e-bike-chase-thank-goodness-they-caught-him/",
+   "source": "Electrek",
+   "published": "2026-11-18T06:51:50Z",
+   "tags": []
+  },
+  {
+   "title": "E-quipment highlight: 110 hp Greenworks OPTIMUS electric UTV [video]",
+   "link": "https://electrek.co/2026/11/17/e-quipment-highlight-110-hp-greenworks-optimus-electric-utv-video/",
+   "source": "Electrek",
+   "published": "2026-11-18T01:28:03Z",
+   "tags": []
+  },
+  {
+   "title": "Solarcycle, PedalPoint Recycling merge to feed a $7.4B US metals refinery",
+   "link": "https://electrek.co/2026/11/17/solarcycle-pedalpoint-recycling-merge-to-feed-a-7-4b-us-metals-refinery/",
+   "source": "Electrek",
+   "published": "2026-11-17T23:04:02Z",
+   "tags": [
+    "deal"
+   ]
+  },
+  {
+   "title": "Iceland’s first wind farm comes with a water-saving bonus",
+   "link": "https://electrek.co/2026/11/17/iceland-first-wind-farm-gives-its-hydropower-a-winter-boost/",
+   "source": "Electrek",
+   "published": "2026-11-17T22:12:53Z",
+   "tags": []
+  },
+  {
+   "title": "Hyundai reveals new 7-seat Neira electric SUV",
+   "link": "https://electrek.co/2026/11/17/hyundai-reveals-new-7-seat-neira-electric-suv/",
+   "source": "Electrek",
+   "published": "2026-11-17T22:01:42Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "Waymo halts highway operation nationwide after CA DMV pause",
+   "link": "https://electrek.co/2026/11/17/waymo-halts-highway-operation-nationwide-after-ca-dmv-pause/",
+   "source": "Electrek",
+   "published": "2026-11-17T21:26:19Z",
+   "tags": []
+  },
+  {
+   "title": "Scout Motors starts validation builds at $2B SC plant, deliveries in 2028",
+   "link": "https://electrek.co/2026/11/17/scout-motors-validation-builds-south-carolina-deliveries-2028/",
+   "source": "Electrek",
+   "published": "2026-11-17T21:15:34Z",
+   "tags": []
+  },
+  {
+   "title": "Toyota adds $1,000 off and 0% APR to its bigger, more powerful electric SUV",
+   "link": "https://electrek.co/2026/11/17/toyota-adds-1000-off-0-apr-to-bigger-electric-suv/",
+   "source": "Electrek",
+   "published": "2026-11-17T20:19:21Z",
+   "tags": []
+  },
+  {
+   "title": "Juiced Scrambler Mini launched as a cooler (and safer) e-bike option for teens and parents",
+   "link": "https://electrek.co/2026/11/17/juiced-scrambler-mini-launched-as-a-cooler-and-safer-e-bike-option-for-teens-and-parents/",
+   "source": "Electrek",
+   "published": "2026-11-17T19:20:09Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "EcoFlow flash sale offers 5,018Wh TITAN Classic + 4x rigid solar panels $1,588 off, Hiboy EVs up to 45% off from $300, more",
+   "link": "https://electrek.co/2026/11/17/ecoflow-5018wh-titan-classic-hiboy-evs-more/",
+   "source": "Electrek",
+   "published": "2026-11-17T19:00:00Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "BMW’s first US-built EV promises 456 miles of range and ultra-fast charging",
+   "link": "https://electrek.co/2026/11/17/bmws-first-us-built-ev-delivers-435-miles-range-fast-charging/",
+   "source": "Electrek",
+   "published": "2026-11-17T18:23:03Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla unveils 7.4 MW Powercore to take on ex-exec Baglino’s Heron Link",
+   "link": "https://electrek.co/2026/11/17/tesla-powercore-solid-state-transformer-heron-link/",
+   "source": "Electrek",
+   "published": "2026-11-17T16:35:25Z",
+   "tags": [
+    "launch"
+   ]
+  },
+  {
+   "title": "GM just made it way easier for EV drivers to charge at Electrify America stations",
+   "link": "https://electrek.co/2026/11/17/gm-easier-ev-drivers-charge-electrify-america/",
+   "source": "Electrek",
+   "published": "2026-11-17T16:27:53Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Volkswagen is cooking up a ‘spicy’ new electric hot hatch",
+   "link": "https://electrek.co/2026/11/17/volkswagen-cooking-up-spicy-new-electric-hot-hatch/",
+   "source": "Electrek",
+   "published": "2026-11-17T15:01:34Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla needs wireless charging fast, or its $30,000 Cybercab can’t charge at home",
+   "link": "https://electrek.co/2026/11/17/tesla-cybercab-home-charging-wireless-problem/",
+   "source": "Electrek",
+   "published": "2026-11-17T14:19:41Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "REO returns to challenge Slate and Fathom in a cheap truck showdown",
+   "link": "https://electrek.co/2026/11/16/reo-returns-to-challenge-slate-and-fathom-in-a-cheap-truck-showdown/",
+   "source": "Electrek",
+   "published": "2026-11-17T00:51:43Z",
+   "tags": []
+  },
+  {
+   "title": "Planning Rental Fleet Transfers When Receiving Locations Have Limited Space",
+   "link": "https://www.autorentalnews.com/articles/planning-rental-fleet-transfers-when-receiving-locations-have-limited-space",
+   "source": "Auto Rental News",
+   "published": "2026-11-17T00:16:36Z",
+   "tags": [
+    "rental"
+   ]
+  },
+  {
+   "title": "Adding wind cuts solar + battery storage power costs nearly 20%",
+   "link": "https://electrek.co/2026/11/16/adding-wind-cuts-solar-battery-storage-power-costs-nearly-20-percent/",
+   "source": "Electrek",
+   "published": "2026-11-16T21:42:57Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla Cybercab has crashed 8 times, and the data shows a speed problem",
+   "link": "https://electrek.co/2026/11/16/tesla-cybercab-crashes-speed-problem/",
+   "source": "Electrek",
+   "published": "2026-11-16T21:41:36Z",
+   "tags": []
+  },
+  {
+   "title": "Ausom Black Friday sale has the right scooter for the right job, at the right price",
+   "link": "https://electrek.co/2026/11/16/ausom-black-friday-sale-right-scooter-right-job-at-right-price/",
+   "source": "Electrek",
+   "published": "2026-11-16T21:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Volkswagen’s cheapest EV already has buyers waiting nearly 2 years",
+   "link": "https://electrek.co/2026/11/16/volkswagens-cheapest-ev-buyers-waiting-nearly-2-years/",
+   "source": "Electrek",
+   "published": "2026-11-16T20:26:22Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Motorcycles are notoriously dangerous. Could electric motorcycles actually change that?",
+   "link": "https://electrek.co/2026/11/16/motorcycles-are-notoriously-dangerous-could-electric-motorcycles-actually-change-that/",
+   "source": "Electrek",
+   "published": "2026-11-16T20:16:30Z",
+   "tags": []
+  },
+  {
+   "title": "Anker SOLIX S5000 power station $2,380 exclusive savings, Navee ST3 Pro e-scooter $552 low, Lectric e-bike accessory sale, more",
+   "link": "https://electrek.co/2026/11/16/anker-solix-s5000-power-station-navee-st3-pro-e-scooter-lectric-e-bike-accessory-sale-more/",
+   "source": "Electrek",
+   "published": "2026-11-16T19:00:00Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla Model X on Autopilot/FSD hit a pole and flipped, killing passenger",
+   "link": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-model-x-pole-rollover-naples/",
+   "source": "Electrek",
+   "published": "2026-11-16T18:10:05Z",
+   "tags": []
+  },
+  {
+   "title": "BYD is bringing its $10,000 ‘Great’ Seagull overseas, but it won’t replace the Dolphin Surf",
+   "link": "https://electrek.co/2026/11/16/byd-bringing-10000-great-seagull-ev-overseas/",
+   "source": "Electrek",
+   "published": "2026-11-16T17:58:05Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla confirms €3B Cybercab factory at Giga Berlin for up to 1M a year",
+   "link": "https://electrek.co/2026/11/16/tesla-cybercab-giga-berlin-3-billion-1-million/",
+   "source": "Electrek",
+   "published": "2026-11-16T17:22:25Z",
+   "tags": []
+  },
+  {
+   "title": "Trump again orders broken coal plant to stay open, even after court said it’s illegal",
+   "link": "https://electrek.co/2026/11/16/trump-again-orders-broken-coal-plant-to-stay-open-even-after-court-said-its-illegal/",
+   "source": "Electrek",
+   "published": "2026-11-16T16:48:21Z",
+   "tags": [
+    "legal"
+   ]
+  },
+  {
+   "title": "Hyundai IONIQ 5 caught with a new high-tech interior and big display screen",
+   "link": "https://electrek.co/2026/11/16/hyundai-ioniq-5-caught-new-high-tech-interior-big-display/",
+   "source": "Electrek",
+   "published": "2026-11-16T16:27:16Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla on Autopilot/FSD was going 74 mph before fiery crash that killed 3",
+   "link": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-fiery-crash-el-dorado-hills/",
+   "source": "Electrek",
+   "published": "2026-11-16T16:00:24Z",
+   "tags": []
+  },
+  {
+   "title": "Tesla on Autopilot/FSD hit an overturned truck at 71 mph, killing 3",
+   "link": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-overturned-truck-naples-i75/",
+   "source": "Electrek",
+   "published": "2026-11-16T15:13:45Z",
+   "tags": []
+  },
+  {
+   "title": "Volkswagen prices its new ID. Cross for the UK, but the $35,000 version comes later",
+   "link": "https://electrek.co/2026/11/16/volkswagen-prices-new-id-cross-35000-version-comes-later-uk/",
+   "source": "Electrek",
+   "published": "2026-11-16T15:02:03Z",
+   "tags": []
+  },
+  {
+   "title": "Is Tesla rushing out a half-baked Cybercab just to shave MKBHD’s head?",
+   "link": "https://electrek.co/2026/11/15/tesla-cybercab-mkbhd-bet-musk-chicken/",
+   "source": "Electrek",
+   "published": "2026-11-15T16:31:24Z",
+   "tags": []
+  },
+  {
+   "title": "Mowing milestone: Greenzie surpasses 255,000 autonomous miles mowed",
+   "link": "https://electrek.co/2026/11/15/mowing-milestone-greenzie-surpasses-255000-autonomous-miles-mowed/",
+   "source": "Electrek",
+   "published": "2026-11-15T16:07:39Z",
+   "tags": []
+  },
+  {
+   "title": "High altitude, bitter cold, zero drivers: autonomous trucks take on Tibetan mine",
+   "link": "https://electrek.co/2026/11/15/high-altitude-bitter-cold-zero-drivers-autonomous-trucks-take-on-tibetan-mine/",
+   "source": "Electrek",
+   "published": "2026-11-15T15:02:35Z",
+   "tags": []
+  },
+  {
+   "title": "China’s electric airliner era starts with a 19-seat plane and 400 km of range",
+   "link": "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/",
+   "source": "Electrek",
+   "published": "2026-11-15T14:43:57Z",
+   "tags": []
+  },
+  {
+   "title": "Hertz, Avis: Parsing the Q3 Headwinds and Tailwinds",
+   "link": "https://www.autorentalnews.com/news/hertz-avis-parsing-the-q3-headwinds-and-tailwinds",
+   "source": "Auto Rental News",
+   "published": "2026-11-15T01:28:24Z",
+   "tags": [
+    "rental"
+   ]
+  },
+  {
+   "title": "$20K Nissan NX7 PHEV goes on sale with nearly 200 miles of electric range",
+   "link": "https://electrek.co/2026/11/14/20k-nissan-nx7-phev-goes-on-sale-with-nearly-200-miles-of-electric-range/",
+   "source": "Electrek",
+   "published": "2026-11-14T21:26:03Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Check your ego at the door: Stellantis’ new electric dolly turns ANY car into a tow rig",
+   "link": "https://electrek.co/2026/11/14/check-your-ego-at-the-door-stellantis-new-electric-dolly-turns-any-car-into-a-tow-rig/",
+   "source": "Electrek",
+   "published": "2026-11-14T17:35:39Z",
+   "tags": []
+  },
+  {
+   "title": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
+   "link": "https://electrek.co/2026/11/14/huawei-set-to-challenge-tesla-powerwall-with-new-20-kw-home-battery/",
+   "source": "Electrek",
+   "published": "2026-11-14T16:25:02Z",
+   "tags": [
+    "ev"
+   ]
+  },
+  {
+   "title": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+   "link": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+   "source": "Electrek",
+   "published": "2026-11-14T13:33:00Z",
+   "tags": []
+  },
+  {
+   "title": "I finally got a USB-C charging e-bike, and it costs 75% less than Rivian’s bike",
+   "link": "https://electrek.co/2026/11/14/i-finally-got-a-usb-c-charging-e-bike-and-it-costs-75-less-than-rivians-bike/",
+   "source": "Electrek",
+   "published": "2026-11-14T13:02:00Z",
+   "tags": [
+    "ev"
+   ]
+  }
+ ]
 }
