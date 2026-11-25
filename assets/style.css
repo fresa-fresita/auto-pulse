@@ -143,6 +143,7 @@ h1, h2, h3, p { margin: 0; }
 .ticker .chg.up { color: var(--up-dark); }
 .ticker .chg.down { color: var(--down-dark); }
 .ticker .chg.flat, .ticker .na { color: #b3b6c6; font-weight: 400; }
+.ticker.featured { border-color: #8d93b5; background: #1d2030; }
 .ticker .asof { display: block; margin-top: 6px; font-size: 13px; color: #8f93a8; }
 
 /* Rental */

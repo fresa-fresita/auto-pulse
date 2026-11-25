@@ -2,10 +2,11 @@
 import sys
 import traceback
 
+import fetch_flexcar
 import fetch_news
 import fetch_recalls
 
-JOBS = [("news", fetch_news.main), ("recalls", fetch_recalls.main)]
+JOBS = [("news", fetch_news.main), ("recalls", fetch_recalls.main), ("flexcar", fetch_flexcar.main)]
 
 
 def main():

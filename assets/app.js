@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  var TAG_LABELS = { launch: "Launches", recall: "Recall news", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
+  var TAG_LABELS = { launch: "Launches", recall: "Recall news", flexcar: "Flexcar", avis: "Avis", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
   var PAGE = 12;
 
   function el(tag, attrs, kids) {
@@ -100,6 +100,33 @@
     });
   }
 
+  /* ---------- Flexcar ---------- */
+  var flexcar = [], flexShown = 3;
+
+  function renderFlexcar() {
+    var grid = document.getElementById("flexcar-grid");
+    var more = document.getElementById("flexcar-more");
+    grid.textContent = "";
+    if (!flexcar.length) {
+      grid.appendChild(empty("No Flexcar news found in the last 60 days. The daily update checks again every morning."));
+      more.hidden = true; return;
+    }
+    flexcar.slice(0, flexShown).forEach(function (i) { grid.appendChild(newsCard(i)); });
+    more.hidden = flexShown >= flexcar.length;
+  }
+
+  function mergeFlexcar(own, fromNews) {
+    var seen = {}, out = [];
+    own.concat(fromNews).forEach(function (i) {
+      var key = (i.title || "").toLowerCase().replace(/\W+/g, "");
+      if (seen[key] || seen[i.link]) return;
+      seen[key] = seen[i.link] = true;
+      out.push(i);
+    });
+    out.sort(function (a, b) { return a.published < b.published ? 1 : -1; });
+    return out;
+  }
+
   /* ---------- Rental ---------- */
   function renderRental() {
     var grid = document.getElementById("rental-grid");
@@ -154,14 +181,15 @@
   }
 
   /* ---------- Stocks: ticker links only, no prices ---------- */
+  var FEATURED = { title: "Featured", tickers: [["CAR", "Avis Budget Group"]] };
   var TICKER_GROUPS = [
     { id: "resale", title: "Resale and marketplaces", tickers: [["CVNA", "Carvana"], ["KMX", "CarMax"], ["CPRT", "Copart"], ["CARG", "CarGurus"], ["CARS", "Cars.com"]] },
     { id: "rental", title: "Rental", tickers: [["HTZ", "Hertz"], ["CAR", "Avis Budget"]] },
     { id: "makers", title: "Automakers", tickers: [["TSLA", "Tesla"], ["GM", "General Motors"], ["F", "Ford"], ["TM", "Toyota"], ["STLA", "Stellantis"], ["HMC", "Honda"]] }
   ];
 
-  function tickerTile(t) {
-    return el("a", { "class": "ticker", href: "https://finance.yahoo.com/quote/" + t[0], target: "_blank", rel: "noopener noreferrer", "aria-label": t[1] + " (" + t[0] + ") quote page" }, [
+  function tickerTile(t, featured) {
+    return el("a", { "class": "ticker" + (featured ? " featured" : ""), href: "https://finance.yahoo.com/quote/" + t[0], target: "_blank", rel: "noopener noreferrer", "aria-label": t[1] + " (" + t[0] + ") quote page" }, [
       el("span", { "class": "sym", text: t[0] }),
       el("span", { "class": "nm", text: t[1] }),
       el("span", { "class": "asof", text: "View quote" })
@@ -171,19 +199,26 @@
   function renderStocks() {
     var box = document.getElementById("stocks");
     box.textContent = "";
+    var featuredSyms = FEATURED.tickers.map(function (t) { return t[0]; });
+    box.appendChild(el("div", { "class": "stock-group" }, [
+      el("h3", { text: FEATURED.title }),
+      el("div", { "class": "tickers" }, FEATURED.tickers.map(function (t) { return tickerTile(t, true); }))
+    ]));
     TICKER_GROUPS.forEach(function (g) {
+      var list = g.tickers.filter(function (t) { return featuredSyms.indexOf(t[0]) === -1; });
+      if (!list.length) return;
       box.appendChild(el("div", { "class": "stock-group" }, [
         el("h3", { text: g.title }),
-        el("div", { "class": "tickers" }, g.tickers.map(tickerTile))
+        el("div", { "class": "tickers" }, list.map(function (t) { return tickerTile(t); }))
       ]));
     });
     var rt = document.getElementById("rental-tickers");
     rt.textContent = "";
-    TICKER_GROUPS.filter(function (g) { return g.id === "rental"; }).forEach(function (g) { g.tickers.forEach(function (t) { rt.appendChild(tickerTile(t)); }); });
+    TICKER_GROUPS.filter(function (g) { return g.id === "rental"; }).forEach(function (g) { g.tickers.forEach(function (t) { rt.appendChild(tickerTile(t, false)); }); });
   }
 
   /* ---------- About ---------- */
-  function renderAbout(newsData, recallData) {
+  function renderAbout(newsData, recallData, flexData) {
     var list = document.getElementById("source-list");
     list.textContent = "";
     var rows = [];
@@ -192,25 +227,28 @@
         rows.push(el("li", {}, [el("span", { text: s.name }), s.ok ? null : el("span", { "class": "state", text: "unavailable at last update" })]));
       });
     }
+    rows.push(el("li", {}, [extLink("https://news.google.com/search?q=Flexcar", "Google News (Flexcar)")]));
     rows.push(el("li", {}, [extLink("https://www.nhtsa.gov/recalls", "NHTSA recalls")]));
     rows.push(el("li", {}, [extLink("https://finance.yahoo.com", "Yahoo Finance (quote pages)")]));
     rows.forEach(function (r) { list.appendChild(r); });
-    var stamps = [newsData, recallData].filter(Boolean).map(function (d) { return d.updated; }).filter(Boolean).sort();
+    var stamps = [newsData, recallData, flexData].filter(Boolean).map(function (d) { return d.updated; }).filter(Boolean).sort();
     var line = document.getElementById("updated-line");
     line.textContent = stamps.length ? "Last data update: " + fmtDateTime(stamps[stamps.length - 1]) + " in your local time." : "No data update has run yet.";
   }
 
   /* ---------- Start ---------- */
   buildFilters();
+  document.getElementById("flexcar-more").addEventListener("click", function () { flexShown += 3; renderFlexcar(); });
   document.getElementById("recall-more").addEventListener("click", function () { recallShown += 5; renderRecalls(); });
 
-  Promise.all([load("news.json"), load("recalls.json")]).then(function (res) {
-    var n = res[0], r = res[1];
+  Promise.all([load("news.json"), load("recalls.json"), load("flexcar.json")]).then(function (res) {
+    var n = res[0], r = res[1], f = res[2];
     news = (n && n.items) || [];
     recalls = (r && r.recent) || [];
-    renderHero(); renderNews(); renderRental();
+    flexcar = mergeFlexcar((f && f.items) || [], news.filter(function (i) { return (i.tags || []).indexOf("flexcar") !== -1; }));
+    renderHero(); renderFlexcar(); renderNews(); renderRental();
     renderRecalls(); renderBars(r);
     renderStocks();
-    renderAbout(n, r);
+    renderAbout(n, r, f);
   });
 })();

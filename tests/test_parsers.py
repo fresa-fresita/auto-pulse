@@ -52,6 +52,21 @@ class NewsTests(unittest.TestCase):
         self.assertIn("launch", items[0]["tags"])
         self.assertIn("ev", items[0]["tags"])
 
+    def test_search_feed_uses_publisher_and_filters(self):
+        xml = (b"<rss><channel><item><title>Flexcar adds new cities - Reuters</title>"
+               b"<link>https://news.google.com/rss/articles/x</link><pubDate>Mon, 23 Nov 2026 10:00:00 GMT</pubDate>"
+               b"<source url='https://reuters.com'>Reuters</source></item>"
+               b"<item><title>Other story - Foo</title><link>https://a.com/1</link>"
+               b"<pubDate>Mon, 23 Nov 2026 10:00:00 GMT</pubDate><source>Foo</source></item></channel></rss>")
+        items = fetch_news.parse_feed(xml, "Google News", True, r"\bflexcar\b")
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["source"], "Reuters")
+        self.assertEqual(items[0]["title"], "Flexcar adds new cities")
+        self.assertIn("flexcar", items[0]["tags"])
+
+    def test_avis_tag(self):
+        self.assertIn("avis", fetch_news.tag_title("Avis Budget names new CFO"))
+
     def test_entities_rejected(self):
         with self.assertRaises(ValueError):
             fetch_news.parse_feed(b'<?xml version="1.0"?><!DOCTYPE x [<!ENTITY a "b">]><rss/>', "Bad")
