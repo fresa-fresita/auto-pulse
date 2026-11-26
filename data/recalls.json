@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:24:39Z",
+ "updated": "2026-11-26T21:42:58Z",
  "window_days": 90,
  "campaigns_in_window": 200,
  "by_make": [
@@ -54,6 +54,25 @@
  ],
  "recent": [
   {
+   "id": "26V766000",
+   "date": "2026-11-19",
+   "makes": [
+    "Genesis"
+   ],
+   "models": [
+    "Gv80"
+   ],
+   "more_models": 0,
+   "years": [
+    2026,
+    2026
+   ],
+   "component": "Suspension:Front:Control Arm:Upper Ball Joint",
+   "summary": "Hyundai Motor America (Genesis) is recalling certain 2026 Genesis GV80 vehicles. Due to a manufacturing error, the front-left upper control arm ball joint may detach from the steering knuckle, which can result in a loss of vehicl…",
+   "units": 188,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V766000"
+  },
+  {
    "id": "26V765000",
    "date": "2026-11-19",
    "makes": [
@@ -96,6 +115,25 @@
    "summary": "Rivian Automotive, LLC (Rivian) is recalling certain 2022-2027 R1S, R1T, and 2027 R2 vehicles. The tire placard and/or certification label may not correctly list the wheel, tire, and spare tire configuration of the vehicle. As su…",
    "units": 1619,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V761000"
+  },
+  {
+   "id": "26V760000",
+   "date": "2026-11-19",
+   "makes": [
+    "Dodge"
+   ],
+   "models": [
+    "Durango"
+   ],
+   "more_models": 0,
+   "years": [
+    2026,
+    2026
+   ],
+   "component": "Engine",
+   "summary": "Chrysler (FCA US, LLC) is recalling certain 2026 Dodge Durango vehicles. The vehicles were manufactured with an incorrect powertrain that may cause a loss of drive power.",
+   "units": 15,
+   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V760000"
   },
   {
    "id": "26V759000",
@@ -568,7 +606,7 @@
     2024,
     2024
    ],
-   "component": "Electrical System:Software",
+   "component": "Service Brakes, Hydraulic:Antilock/Traction Control/Electronic Limited Slip:Control Unit/…",
    "summary": "Acura (American Honda Motor Co.) is recalling certain 2024 Acura ZDX vehicles equipped with all-wheel drive. A software error may unexpectedly activate the anti-lock brake system (ABS) and release brake pressure.",
    "units": 14648,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V735000"
@@ -632,50 +670,6 @@
    "summary": "Volkswagen Group of America, Inc. (Volkswagen) is recalling certain 2027 Atlas vehicles. The second-row center seat ISOFIX/LATCH child seat anchor openings may be partially obstructed by surrounding stitching, preventing a child…",
    "units": 3914,
    "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V732000"
-  },
-  {
-   "id": "26V731000",
-   "date": "2026-11-04",
-   "makes": [
-    "BMW"
-   ],
-   "models": [
-    "I5 Edrive40",
-    "I5 M60 Xdrive",
-    "I5 Xdrive40",
-    "I7 Xdrive50"
-   ],
-   "more_models": 1,
-   "years": [
-    2026,
-    2027
-   ],
-   "component": "Electrical System:Propulsion System:Traction Battery Thermal:Management:Software",
-   "summary": "BMW of North America, LLC (BMW) is recalling certain 2027 i7 50xDrive, i7 60xDrive, 2026-2027 i5 xDrive40, i5 eDrive40, and i5 M60 vehicles. The high voltage battery charging software may be incorrect.",
-   "units": 286,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V731000"
-  },
-  {
-   "id": "26V730000",
-   "date": "2026-11-03",
-   "makes": [
-    "Harley-Davidson"
-   ],
-   "models": [
-    "Flhx",
-    "Flhxl",
-    "Flhxlse",
-    "Flhxse"
-   ],
-   "more_models": 5,
-   "years": [
-    2026,
-    2026
-   ],
-   "component": "Engine And Engine Cooling:Engine:Engine Control Module (Ecu/Ecm)",
-   "summary": "Harley-Davidson Motor Company (Harley-Davidson) is recalling certain 2026 FLHXLSE, FLTRXSTSE, FLHXSTSE, FLHXSE, FLHXL, FLTRXP, FLTRX, FLTRXL, and FLHX motorcycles. The engine control module (ECM) may communicate the incorrect gea…",
-   "units": 21643,
-   "url": "https://www.nhtsa.gov/recalls?nhtsaId=26V730000"
   }
  ]
 }
