@@ -186,3 +186,16 @@ h1, h2, h3, p { margin: 0; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Catch a car */
+.arcade { max-width: 420px; margin: 32px auto 0; text-align: center; }
+.screen { position: relative; background: #000; border: 8px solid var(--ink); border-radius: 12px; }
+.screen canvas { display: block; width: 100%; height: auto; aspect-ratio: 1; image-rendering: pixelated; }
+.overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 24px; background: rgba(0,0,0,.82); color: #fff; font-family: "Courier New", Courier, monospace; }
+.overlay-title { font-size: 26px; font-weight: 700; letter-spacing: .04em; }
+.overlay-note { font-size: 15px; max-width: 28ch; }
+.game-status { margin-top: 14px; font-size: 15px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pad { display: grid; grid-template-columns: repeat(4, 64px); gap: 10px; justify-content: center; margin-top: 14px; }
+.pad button { height: 56px; border: 1.5px solid var(--ink); border-radius: 16px; background: var(--white); color: var(--ink); font-size: 20px; cursor: pointer; touch-action: manipulation; user-select: none; -webkit-user-select: none; }
+.pad button:hover, .pad button:active { background: var(--ink); color: var(--white); }
+.arcade .small { margin-top: 12px; }

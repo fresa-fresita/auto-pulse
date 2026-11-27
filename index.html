@@ -96,6 +96,29 @@
       <div class="grid" id="rental-grid"></div>
     </section>
 
+    <section class="wrap section" id="game" aria-labelledby="h-game">
+      <h2 id="h-game">Catch a car</h2>
+      <p class="lede">A quick break. Chase the cars on foot. Every car you catch, you get to drive.</p>
+      <div class="arcade">
+        <div class="screen">
+          <canvas id="game-canvas" width="240" height="240" role="img" aria-label="Retro game board. A small figure chases cars through a maze."></canvas>
+          <div class="overlay" id="game-overlay">
+            <p class="overlay-title" id="game-title">Catch a car</p>
+            <p class="overlay-note" id="game-note">Chase the cars on foot. Catch one and you drive it.</p>
+            <button class="btn btn-light" id="game-start" type="button">Start</button>
+          </div>
+        </div>
+        <p class="game-status" id="game-status" aria-live="polite"></p>
+        <div class="pad" id="game-pad" role="group" aria-label="Game controls">
+          <button type="button" data-dir="up" aria-label="Up">&#9650;</button>
+          <button type="button" data-dir="left" aria-label="Left">&#9664;</button>
+          <button type="button" data-dir="down" aria-label="Down">&#9660;</button>
+          <button type="button" data-dir="right" aria-label="Right">&#9654;</button>
+        </div>
+        <p class="small">Use the arrow keys or the buttons.</p>
+      </div>
+    </section>
+
     <section class="wrap section about" id="about" aria-labelledby="h-about">
       <h2 id="h-about">How this works</h2>
       <div class="about-grid">
@@ -119,5 +142,6 @@
   </footer>
 
   <script src="assets/app.js"></script>
+  <script src="assets/game.js"></script>
 </body>
 </html>
