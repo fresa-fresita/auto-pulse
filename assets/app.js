@@ -212,9 +212,6 @@
         el("div", { "class": "tickers" }, list.map(function (t) { return tickerTile(t); }))
       ]));
     });
-    var rt = document.getElementById("rental-tickers");
-    rt.textContent = "";
-    TICKER_GROUPS.filter(function (g) { return g.id === "rental"; }).forEach(function (g) { g.tickers.forEach(function (t) { rt.appendChild(tickerTile(t, false)); }); });
   }
 
   /* ---------- About ---------- */

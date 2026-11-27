@@ -156,12 +156,6 @@ h1, h2, h3, p { margin: 0; }
 .ticker .asof { display: block; margin-top: 6px; font-size: 13px; color: #8f93a8; }
 
 /* Rental */
-.rental-tickers { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 14px; margin: 32px 0 28px; max-width: 420px; }
-.rental-tickers .ticker { background: var(--soft); border-color: var(--line); color: var(--ink); }
-.rental-tickers .ticker .nm, .rental-tickers .ticker .na, .rental-tickers .ticker .asof { color: var(--muted); }
-.rental-tickers .ticker .chg.up { color: var(--up); }
-.rental-tickers .ticker .chg.down { color: var(--down); }
-.rental-tickers .ticker:hover { border-color: var(--ink); }
 
 /* About and footer */
 .about-grid { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 48px; margin-top: 28px; }
