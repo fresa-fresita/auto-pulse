@@ -64,7 +64,7 @@ h1, h2, h3, p { margin: 0; }
 .more { margin-top: 28px; }
 
 /* Hero */
-.hero { position: relative; overflow: hidden; border-radius: var(--radius-xl); color: var(--white); min-height: 560px; padding: 72px 64px; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 48px; align-items: center;
+.hero { position: relative; overflow: hidden; border-radius: var(--radius-xl); color: var(--white); min-height: 0; padding: 48px 56px 40px; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: 40px; align-items: center;
   background:
     repeating-linear-gradient(172deg, transparent 0 46px, rgba(255,255,255,.035) 46px 48px),
     radial-gradient(900px 500px at 85% 10%, rgba(120,150,255,.28), transparent 60%),
