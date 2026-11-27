@@ -135,8 +135,8 @@ h1, h2, h3, p { margin: 0; }
 .dark-panel h2 { color: var(--white); }
 .dark-panel .lede { color: #d6d8e2; }
 .dark-panel .small { color: #a9acbd; margin-top: 32px; }
-.stock-group { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 16px; align-items: start; margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); }
-.stock-group:first-of-type { margin-top: 28px; }
+.stock-group { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 16px; align-items: start; margin-top: 22px; }
+.stock-group:first-of-type { margin-top: 32px; }
 .stock-group h3 { font-size: 17px; font-weight: 600; padding-top: 8px; }
 .tickers { display: flex; flex-wrap: wrap; gap: 10px; }
 .ticker { display: block; text-decoration: none; border: 1.5px solid #34374a; border-radius: 20px; padding: 18px 20px; background: #15171e; }
