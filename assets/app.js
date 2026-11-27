@@ -61,6 +61,7 @@
     var count = document.getElementById("news-count");
     grid.textContent = "";
     var list = news.filter(function (i) { return activeTag === "all" || (i.tags || []).indexOf(activeTag) !== -1; });
+    if (activeTag === "all") list = list.slice(3); /* the first three are shown in the hero Latest list */
     if (!news.length) {
       grid.appendChild(empty("No headlines yet. The daily update fills this section in."));
       more.hidden = true; count.textContent = "";
