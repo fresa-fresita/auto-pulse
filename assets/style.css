@@ -44,7 +44,7 @@ h1, h2, h3, p { margin: 0; }
 
 /* Nav */
 .nav { display: flex; align-items: center; justify-content: space-between; padding: 28px 0 22px; gap: 16px; flex-wrap: wrap; }
-.brand { font-weight: 700; font-size: 26px; letter-spacing: -0.04em; text-decoration: none; }
+.brand { font-weight: 700; font-size: 32px; letter-spacing: -0.04em; text-decoration: none; }
 .brand span { font-weight: 300; }
 .nav nav { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
 .nav nav a { text-decoration: none; font-size: 17px; }
@@ -84,7 +84,7 @@ h1, h2, h3, p { margin: 0; }
 
 /* Sections */
 .section { padding: 96px 0 0; }
-.section h2, .dark-panel h2 { font-size: clamp(34px, 4.4vw, 54px); font-weight: 700; letter-spacing: -0.045em; line-height: 1.05; color: var(--navy); }
+.section h2, .dark-panel h2 { font-size: clamp(28px, 3vw, 38px); font-weight: 700; letter-spacing: -0.045em; line-height: 1.05; color: var(--navy); }
 .lede { margin-top: 16px; font-size: 20px; font-weight: 300; max-width: 62ch; }
 .small { font-size: 14px; color: var(--muted); }
 .count { margin-top: 18px; font-size: 14px; color: var(--muted); min-height: 21px; }
