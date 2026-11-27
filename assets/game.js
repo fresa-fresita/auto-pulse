@@ -1,4 +1,4 @@
-/* Catch a car: a tiny black and white arcade game. No libraries, no network, no stored data. */
+/* Flex a Car: a tiny black and white arcade game. No libraries, no network, no stored data. */
 (function (root) {
   "use strict";
 
@@ -232,7 +232,7 @@
   }
 
   function showOverlay(won) {
-    title.textContent = won ? "You caught them all" : "Catch a car";
+    title.textContent = won ? "You caught them all" : "Flex a Car";
     note.textContent = won ? "Your ride is looking fancy." : "Chase the cars on foot. Catch one and you drive it.";
     startBtn.textContent = won ? "Play again" : "Start";
     overlay.hidden = false;
