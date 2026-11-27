@@ -72,7 +72,7 @@ h1, h2, h3, p { margin: 0; }
 .hero h1 { font-size: 40px; line-height: 1.1; letter-spacing: -0.055em; font-weight: 700; }
 .hero h1 span { display: block; }
 .hero h1 .soft { color: #b6b9c8; }
-.hero-copy p { margin-top: 32px; font-size: 22px; line-height: 1.4; font-weight: 300; max-width: 30ch; }
+.hero-copy p { margin-top: 32px; font-size: 22px; line-height: 1.4; font-weight: 300; max-width: none; }
 .actions { display: flex; gap: 16px; margin-top: 36px; flex-wrap: wrap; }
 .hero-latest { background: rgba(13,14,18,.55); border: 1px solid rgba(255,255,255,.18); border-radius: var(--radius-lg); padding: 28px; backdrop-filter: blur(6px); }
 .hero-latest h2 { font-size: 20px; font-weight: 600; margin-bottom: 14px; }
