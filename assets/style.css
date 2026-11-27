@@ -172,7 +172,11 @@ h1, h2, h3, p { margin: 0; }
 .plain a { text-underline-offset: 4px; }
 .plain .state { color: var(--muted); font-size: 14px; margin-left: 8px; }
 #updated-line { margin-top: 20px; }
-.footer { padding: 72px 0 56px; color: var(--muted); font-size: 14px; text-align: center; }
+.footer { margin-top: 72px; margin-bottom: 40px; padding: 44px 32px; color: #d6d8e2; font-size: 15px; text-align: center; border-radius: var(--radius-xl);
+  background:
+    repeating-linear-gradient(172deg, transparent 0 46px, rgba(255,255,255,.035) 46px 48px),
+    radial-gradient(900px 500px at 85% 10%, rgba(120,150,255,.28), transparent 60%),
+    linear-gradient(135deg, #0d0e12 0%, #151a35 55%, #26346a 100%); }
 
 /* Responsive */
 @media (max-width: 960px) {
