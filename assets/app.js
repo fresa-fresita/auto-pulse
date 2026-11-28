@@ -2,7 +2,7 @@
   "use strict";
 
   var TAG_LABELS = { launch: "Launches", recall: "Recall news", flexcar: "Flexcar", legal: "Legal", deal: "Deals", rental: "Rental", ev: "EV" };
-  var PAGE = 9;
+  var PAGE = 6;
 
   function el(tag, attrs, kids) {
     var node = document.createElement(tag);
@@ -138,7 +138,7 @@
   }
 
   /* ---------- Recalls ---------- */
-  var recalls = [], recallShown = 5;
+  var recalls = [], recallShown = 3;
 
   function recallTitle(r) {
     var models = r.models.join(", ") + (r.more_models ? " and " + r.more_models + " more" : "");
@@ -237,7 +237,7 @@
   /* ---------- Start ---------- */
   buildFilters();
   document.getElementById("flexcar-more").addEventListener("click", function () { flexShown += 3; renderFlexcar(); });
-  document.getElementById("recall-more").addEventListener("click", function () { recallShown += 5; renderRecalls(); });
+  document.getElementById("recall-more").addEventListener("click", function () { recallShown += 3; renderRecalls(); });
 
   Promise.all([load("news.json"), load("recalls.json"), load("flexcar.json")]).then(function (res) {
     var n = res[0], r = res[1], f = res[2];
